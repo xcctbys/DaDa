@@ -649,13 +649,34 @@ html,body {
 }
 
 #logo .text {
+	font-size: 23px;
+	color: #1885e8
+
+}
+
+#logo .text2 {
+	font-size: 15px;
+	color: #1885e8
+}
+
+#logo .text3 {
 	font-size: 25px;
 	color: #1885e8
 }
 
+
 #logo .text p {
 	margin: 0
 }
+
+#logo .text2 p {
+	margin: 0
+}
+
+#logo .text2 p:nth-child(2) {
+	color: #fefefe
+}
+
 
 #logo .text p:nth-child(2) {
 	color: #fefefe
@@ -666,46 +687,126 @@ html,body {
 	height: 100%
 }
 
+/*b*/
 #logo .caad18 {
-	left: 21%;
-	top: 34%
+	left: 10%;
+	top: 20%
 }
+
 
 #logo .caad18 p:nth-child(1) {
 	text-indent: 33px
 }
 
+
+/*c*/
+
+#logo .sched {
+
+	right: 40%;
+	top: 15%
+}
+
+/**/
 #logo .callp {
 
-	right: 12%;
+	right: 3%;
 	top: 44%
 }
 
-#logo .caad {
-	left: 12%;
+/*d*/
+
+#logo .activs {
+
+	right: 8%;
+	top: 78%
+}
+
+/*e*/
+#logo .regist{
+
+	right: 8%;
+	top: 20%
+}
+/*f*/
+
+#logo .caad1 {
+	left: 50%;
+	top: 67%
+}
+
+/*g*/
+#logo .caad2 {
+	left: 8%;
+	top: 50%
+}
+
+/*h*/
+#logo .thu {
+	left: 15%;
+	top: 60%
+}
+
+/*i*/
+#logo .dada {
+	right: 12%;
 	top: 58%
 }
 
-#logo .caadp:nth-child(1) {
-	text-indent: 33px
+/*j*/
+#logo .accomm {
+	left: 12%;
+	top: 82%
 }
 
-#logo .tsda {
-	text-align: right;
-	right: 18%;
-	top: 24%
+/*k*/
+#logo .trans {
+	left: 17%;
+	top: 80%
 }
+
+/*l*/
+#logo .tour {
+	right: 12%;
+	top: 82%
+}
+
+/*m*/
 
 #logo .info {
-	text-align: right;
-	right: 20%;
-	top: 75%
+	left: 50%;
+	top: 90%
 }
+/*n*/
+
+
 
 #logo .peop {
-	left: 21%;
-	top: 75%
+	left: 10%;
+	top: 70%
 }
+
+
+/**/
+
+
+/*o*/
+#logo .loglin{
+	left: 40%;
+	top: 90%
+}
+
+#logo .tsda{
+	left: 5%;
+	top: 63%
+}
+
+#logo .cadetail{
+	left: 30%;
+	top: 60%
+}
+
+
 
 
 
@@ -716,6 +817,10 @@ html,body {
 	margin-top: -203.5px;
 	z-index: 1000
 }
+
+
+
+
 
 #logo .zhiwei {
 	right: 22%;
@@ -884,19 +989,19 @@ html,body {
 		top: 44%
 	}
 
-	#logo .zhiwei {
-		right: 29.5%;
-		top: 52%
+	#logo .theme1 {
+		left: 29.5%;
+		top: 12%
 	}
 
-	#logo .zhiweidata {
-		right: 29.5%;
-		top: 61%
+	#logo .theme2 {
+		left: 29.5%;
+		top: 21%
 	}
 
-	#logo .slogan {
-		right: 29.5%;
-		top: 68%
+	#logo .theme3 {
+		left: 29.5%;
+		top: 30%
 	}
 
 	#logo .one {
@@ -1196,7 +1301,7 @@ html,body {
 }
 
 #poster2 .fp-tableCell .assay header.title .year {
-	font-size: 72px;
+	font-size: 40px;
 	display: inline-block;
 	line-height: 80px;
 	padding-right: 5px;
@@ -1205,7 +1310,7 @@ html,body {
 
 #poster2 .fp-tableCell .assay header.title .name {
 	padding-left: 0px;
-	font-size: 27px;
+	font-size: 20px;
 	display: inline-block;
 	line-height: 30px
 }
