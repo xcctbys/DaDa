@@ -237,6 +237,10 @@ html,body {
 	background: url(../img/poster.png) left top no-repeat
 }
 
+
+
+
+
 #poster .fp-controlArrow {
 	border: none;
 	width: 41px;
@@ -262,6 +266,40 @@ html,body {
 .fp-prev:hover {
 	background-position: 0px 0
 }
+
+/*prodect  cursor*/
+
+#product .fp-controlArrow {
+	border: none;
+	width: 41px;
+	height: 41px;
+	background: url(../img/arrow.png)
+}
+
+#product .fp-next {
+	background-position: 41px 0;
+	right: 5%
+}
+
+#product .fp-next:hover {
+	background-position: -41px 0
+}
+
+#product .fp-prev {
+	left: 5%;
+	background-position: 82px 0
+}
+
+#product.fp-prev:hover {
+	background-position: 0px 0
+}
+
+
+
+
+
+
+
 
 #poster .fp-tableCell {
 	display: block
@@ -2083,6 +2121,16 @@ html,body {
 	margin-left: 12.5%
 }
 
+#product .mainWrap .caadr {
+	width: 70%;
+	float: center;
+	margin-left: 12.5%
+}
+
+
+
+/*caadria*/
+
 #product .mainWrap .pro:first-child {
 	margin-left: 0
 }
@@ -2128,6 +2176,63 @@ html,body {
 	background: #1885e8;
 	margin-right: 1em
 }
+
+
+
+
+
+/*------caadr----------*/
+
+
+#product .mainWrap .caadr:first-child {
+	margin-left: 0
+}
+
+#product .mainWrap .caadr .img {
+	width: 100%;
+	padding-top: 100%;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s
+}
+
+#product .mainWrap .caadr .img:hover {
+	cursor: pointer
+}
+
+#product .mainWrap .caadr p {
+	color: #d7d7d7;
+	min-height: 5.5em;
+	line-height: 1.6;
+	padding: 0 0.5em;
+	margin-bottom: 0
+}
+
+#product .mainWrap .caadr ul {
+	list-style: none;
+	margin-top: 0
+}
+
+#product .mainWrap .caadr ul li {
+	position: relative;
+	color: #fff;
+	line-height: 1.6
+}
+
+#product .mainWrap .caadr ul li:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #1885e8;
+	margin-right: 1em
+}
+
+
+
+
 
 #product .mainWrap .weiboreach .img {
 	background: url(../img/weiboreach.png) center center no-repeat;
