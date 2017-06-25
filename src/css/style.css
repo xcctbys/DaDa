@@ -864,15 +864,6 @@ html,body {
 
 
 
-#logo .zhiwei {
-	right: 22%;
-	top: 52%
-}
-
-#logo .zhiweidata {
-	right: 21%;
-	top: 61%
-}
 
 #logo .slogan {
 	right: 23.5%;
@@ -929,7 +920,7 @@ html,body {
 	top: 80%
 }
 
-#logo .cloud img,#logo .zhiwei img,#logo .zhiweidata img,#logo .slogan h1 {
+#logo .cloud img,#logo .slogan h1 {
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	-webkit-transform: scale(0.8);
@@ -957,15 +948,7 @@ html,body {
 		top: 45%
 	}
 
-	#logo .zhiwei {
-		right: 24.5%;
-		top: 57%
-	}
 
-	#logo .zhiweidata {
-		right: 24.5%;
-		top: 67%
-	}
 
 	#logo .slogan {
 		right: 24.5%;
@@ -1002,7 +985,7 @@ html,body {
 		top: 62%
 	}
 
-	#logo .cloud img,#logo .zhiwei img,#logo .zhiweidata img,#logo .slogan h1 {
+	#logo .cloud img,#logo .slogan h1 {
 		-moz-transform: scale(1);
 		-ms-transform: scale(1);
 		-webkit-transform: scale(1);
@@ -1076,7 +1059,7 @@ html,body {
 		top: 64%
 	}
 
-	#logo .cloud img,#logo .zhiwei img,#logo .zhiweidata img,#logo 
+	#logo .cloud img,#logo 
 .slogan h1 {
 		-moz-transform: scale(1);
 		-ms-transform: scale(1);
@@ -2244,23 +2227,21 @@ html,body {
 	background-size: 100%
 }
 
-#product .mainWrap .zhiweiDs .img {
+#product .mainWrap .TDDs .img {
 	background: url(../img/eventful.png) center center no-repeat;
 	background-size: 100%
 }
 
-#product .mainWrap .zhiweiDs .img:hover {
+#product .mainWrap .TDDs .img:hover {
 	background: url(../img/eventfulhover.png) center center no-repeat;
 	background-size: 100%
 }
 
-#product .mainWrap .zhiweiLabs .img {
-	background: url(../img/zhiweiLabs.png) center center no-repeat;
+#product .mainWrap .TDLabs .img {
 	background-size: 100%
 }
 
-#product .mainWrap .zhiweiLabs .img:hover {
-	background: url(../img/zhiweiLabshover.png) center center no-repeat;
+#product .mainWrap .TDLabs .img:hover {
 	background-size: 100%
 }
 
