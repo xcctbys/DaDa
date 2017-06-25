@@ -84,20 +84,24 @@ html,body {
 }
 
 
-.nav a.caadria{
-	left: 11%;
+.nav a.caadria8{
+	left: 5%;
 	margin-left: 0
 }
 
-.nav a.caadria8 {
-	left: 25%
+.nav a.callp {
+	left: 20%
 }
 
-.nav a.tsda {
-	right: 46%
+.nav a.regist {
+	left: 35%
 }
 
-.nav a.acommo{
+.nav a.schedu {
+	right: 40%
+}
+
+.nav a.activs{
 	right: 27%
 }
 
@@ -1209,11 +1213,14 @@ html,body {
 	}
 }
 
-#poster2 .fp-tableCell {
+
+
+/*poster2->4*/
+#poster4 .fp-tableCell {
 	position: relative
 }
 
-#poster2 .fp-tableCell .earth {
+#poster4 .fp-tableCell .earth {
 	position: absolute;
 	width: 520px;
 	height: 520px;
@@ -1226,11 +1233,11 @@ html,body {
 	transform: scale3d(0.8, 0.8, 1)
 }
 
-#poster2 .fp-tableCell .earth a img {
+#poster4 .fp-tableCell .earth a img {
 	position: absolute
 }
 
-#poster2 .fp-tableCell .earth a.earthbody img {
+#poster4 .fp-tableCell .earth a.earthbody img {
 	left: 50%;
 	margin-left: -188.5px;
 	top: 50%;
@@ -1241,7 +1248,7 @@ html,body {
 	transition: all 1.5s linear
 }
 
-#poster2 .fp-tableCell .earth a.cloudone img {
+#poster4 .fp-tableCell .earth a.cloudone img {
 	left: 0;
 	top: 60%;
 	-moz-transform: scale3d(0, 0, 0);
@@ -1254,7 +1261,7 @@ html,body {
 	transition: all 1.5s linear
 }
 
-#poster2 .fp-tableCell .earth a.cloudtwo img {
+#poster4 .fp-tableCell .earth a.cloudtwo img {
 	right: 0;
 	top: 50%;
 	-moz-transform: scale3d(0, 0, 0);
@@ -1267,14 +1274,14 @@ html,body {
 	transition: all 1.5s linear
 }
 
-#poster2 
+#poster4 
 .fp-tableCell .earth a.shadow img {
 	bottom: 0;
 	left: 50%;
 	margin-left: -188.5px
 }
 
-#poster2 .fp-tableCell .assay {
+#poster4 .fp-tableCell .assay {
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
@@ -1287,7 +1294,7 @@ html,body {
 	right: 5%
 }
 
-#poster2 .fp-tableCell .assay header.title {
+#poster4 .fp-tableCell .assay header.title {
 	-moz-transition: all 1.5s linear .5s;
 	-o-transition: all 1.5s linear .5s;
 	-webkit-transition: all 1.5s linear;
@@ -1300,7 +1307,7 @@ html,body {
 	opacity: 0
 }
 
-#poster2 .fp-tableCell .assay header.title .year {
+#poster4 .fp-tableCell .assay header.title .year {
 	font-size: 40px;
 	display: inline-block;
 	line-height: 80px;
@@ -1308,14 +1315,14 @@ html,body {
 	background: url(../img/dot.png) right center no-repeat
 }
 
-#poster2 .fp-tableCell .assay header.title .name {
+#poster4 .fp-tableCell .assay header.title .name {
 	padding-left: 0px;
 	font-size: 20px;
 	display: inline-block;
 	line-height: 30px
 }
 
-#poster2 .fp-tableCell .assay .content {
+#poster4 .fp-tableCell .assay .content {
 	-moz-transition: all 1.5s linear 1s;
 	-o-transition: all 1.5s linear 1s;
 	-webkit-transition: all 1.5s linear;
@@ -1331,7 +1338,7 @@ html,body {
 	line-height: 1.5
 }
 
-#poster2 .fp-tableCell .assay .sponsor {
+#poster4 .fp-tableCell .assay .sponsor {
 	-moz-transition: all 1.5s linear 1s;
 	-o-transition: all 1.5s linear 1s;
 	-webkit-transition: all 1.5s linear;
@@ -1344,41 +1351,41 @@ html,body {
 	margin-top: 0
 }
 
-#poster.active #poster2.active .fp-tableCell .earth a.cloudone img {
+#poster.active #poster4.active .fp-tableCell .earth a.cloudone img {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster.active #poster2.active .fp-tableCell .earth a.cloudtwo img {
+#poster.active #poster4.active .fp-tableCell .earth a.cloudtwo img {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster.active #poster2.active .fp-tableCell .assay header.title {
+#poster.active #poster4.active .fp-tableCell .assay header.title {
 	margin-left: 0;
 	opacity: 1
 }
 
-#poster.active #poster2.active .fp-tableCell .assay .content {
+#poster.active #poster4.active .fp-tableCell .assay .content {
 	margin-left: 0;
 	opacity: 1
 }
 
-#poster.active #poster2.active .fp-tableCell .assay .sponsor {
+#poster.active #poster4.active .fp-tableCell .assay .sponsor {
 	margin-left: 0;
 	opacity: 1
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-	#poster2 .fp-tableCell {
+	#poster4 .fp-tableCell {
 		position: relative
 	}
 
-	#poster2 .fp-tableCell .earth {
+	#poster4 .fp-tableCell .earth {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1386,7 +1393,7 @@ html,body {
 		left: 9%
 	}
 
-	#poster2 .fp-tableCell .assay {
+	#poster4 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1396,11 +1403,11 @@ html,body {
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-	#poster2 .fp-tableCell {
+	#poster4 .fp-tableCell {
 		position: relative
 	}
 
-	#poster2 .fp-tableCell .earth {
+	#poster4 .fp-tableCell .earth {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1408,7 +1415,7 @@ html,body {
 		left: 16%
 	}
 
-	#poster2 .fp-tableCell .assay {
+	#poster4 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1418,11 +1425,11 @@ html,body {
 }
 
 @media screen and (min-width: 1920px) {
-	#poster2 .fp-tableCell {
+	#poster4 .fp-tableCell {
 		position: relative
 	}
 
-	#poster2 .fp-tableCell .earth {
+	#poster4 .fp-tableCell .earth {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1430,7 +1437,7 @@ html,body {
 		left: 20%
 	}
 
-	#poster2 .fp-tableCell .assay {
+	#poster4 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1439,11 +1446,14 @@ html,body {
 	}
 }
 
-#poster3 .fp-tableCell {
+
+/*poster3->1*/
+
+#poster1 .fp-tableCell {
 	position: relative
 }
 
-#poster3 .fp-tableCell .flower {
+#poster1 .fp-tableCell .flower {
 	width: 500px;
 	height: 500px;
 	position: absolute;
@@ -1456,11 +1466,11 @@ html,body {
 	transform: scale3d(0.9, 0.9, 1)
 }
 
-#poster3 .fp-tableCell .flower img {
+#poster1 .fp-tableCell .flower img {
 	position: absolute
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(1) {
+#poster1 .fp-tableCell .flower img:nth-child(1) {
 	left: 40%;
 	top: 10%;
 	-moz-transform: scale3d(0, 0, 1);
@@ -1474,7 +1484,7 @@ html,body {
 	transition: all 1.5s ease 1.5s
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(2) {
+#poster1 .fp-tableCell .flower img:nth-child(2) {
 	left: 0%;
 	top: 25%;
 	-moz-transform: scale3d(0, 0, 1);
@@ -1488,7 +1498,7 @@ html,body {
 	transition: all 2.5s ease .5s
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(3) {
+#poster1 .fp-tableCell .flower img:nth-child(3) {
 	left: 65%;
 	top: 26%;
 	-moz-transform: scale3d(0, 0, 1);
@@ -1502,7 +1512,7 @@ html,body {
 	transition: all 3.5s ease 1s
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(4) {
+#poster1 .fp-tableCell .flower img:nth-child(4) {
 	left: 45%;
 	top: 60%;
 	-moz-transform: scale3d(0, 0, 1);
@@ -1516,7 +1526,7 @@ html,body {
 	transition: all 2.5s ease .8s
 }
 
-#poster3 .fp-tableCell .assay {
+#poster1 .fp-tableCell .assay {
 	-moz-transform: scale3d(0.9, 0.9, 1);
 	-ms-transform: scale3d(0.9, 0.9, 1);
 	-webkit-transform: scale3d(0.9, 0.9, 1);
@@ -1529,7 +1539,7 @@ html,body {
 	margin-top: -50px
 }
 
-#poster3 .fp-tableCell .assay h3 {
+#poster1.fp-tableCell .assay h3 {
 	font-size: 50px;
 	font-weight: normal;
 	color: #1885e8;
@@ -1543,7 +1553,7 @@ html,body {
 	transition: all 1.5s linear .5s
 }
 /* #b-3,call for paper, Papers*/
-#poster3 .fp-tableCell .assay p {
+#poster1 .fp-tableCell .assay p {
 	color: #fefefe;
 	font-size: 25px;
 	margin-top: 0;
@@ -1559,13 +1569,13 @@ html,body {
 	transition: all 1.5s linear 1s
 }
 
-#poster3.active .fp-tableCell .flower #svg {
+#poster1.active .fp-tableCell .flower #svg {
 	position: absolute;
 	width: 100%;
 	height: 100%
 }
 
-#poster3.active .fp-tableCell .flower #svg path {
+#poster1.active .fp-tableCell .flower #svg path {
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 	-moz-animation: showline 5s linear 2s forwards;
@@ -1573,40 +1583,40 @@ html,body {
 	animation: showline 5s linear 2s forwards
 }
 
-#poster3.active .fp-tableCell .flower img:nth-child(1) {
+#poster1.active .fp-tableCell .flower img:nth-child(1) {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster3.active .fp-tableCell .flower img:nth-child(2) {
+#poster1.active .fp-tableCell .flower img:nth-child(2) {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster3.active .fp-tableCell .flower img:nth-child(3) {
+#poster1.active .fp-tableCell .flower img:nth-child(3) {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster3.active .fp-tableCell .flower img:nth-child(4) {
+#poster1.active .fp-tableCell .flower img:nth-child(4) {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster3.active .fp-tableCell .assay h3 {
+#poster1.active .fp-tableCell .assay h3 {
 	margin-left: 0;
 	opacity: 1
 }
 
-#poster3.active .fp-tableCell .assay p {
+#poster1.active .fp-tableCell .assay p {
 	margin-left: 0;
 	opacity: 1
 }
@@ -1630,7 +1640,7 @@ html,body {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-	#poster3 .fp-tableCell .flower {
+	#poster1 .fp-tableCell .flower {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1638,7 +1648,7 @@ html,body {
 		left: 15%
 	}
 
-	#poster3 .fp-tableCell .assay {
+	#poster1 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1648,7 +1658,7 @@ html,body {
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-	#poster3 .fp-tableCell .flower {
+	#poster1 .fp-tableCell .flower {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1656,7 +1666,7 @@ html,body {
 		left: 22%
 	}
 
-	#poster3 .fp-tableCell .assay {
+	#poster1 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1666,7 +1676,7 @@ html,body {
 }
 
 @media screen and (min-width: 1920px) {
-	#poster3 .fp-tableCell .flower {
+	#poster1 .fp-tableCell .flower {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1674,7 +1684,7 @@ html,body {
 		left: 24%
 	}
 
-	#poster3 .fp-tableCell .assay {
+	#poster1 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1683,11 +1693,13 @@ html,body {
 	}
 }
 
-#poster4 .fp-tableCell {
+
+/*poster4->2*/
+#poster2 .fp-tableCell {
 	position: relative
 }
 
-#poster4 .fp-tableCell .round {
+#poster2 .fp-tableCell .round {
 	width: 500px;
 	height: 500px;
 	position: absolute;
@@ -1700,7 +1712,7 @@ html,body {
 	transform: scale3d(0.8, 0.8, 1)
 }
 
-#poster4 .fp-tableCell .round .roundin {
+#poster2 .fp-tableCell .round .roundin {
 	width: 100%;
 	height: 100%;
 	-moz-transform: scale3d(0, 0, 0);
@@ -1713,18 +1725,18 @@ html,body {
 	transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)
 }
 
-#poster4 .fp-tableCell .round .roundin img {
+#poster2 .fp-tableCell .round .roundin img {
 	position: absolute;
 	top: 50%;
 	left: 50%
 }
 
-#poster4 .fp-tableCell .round .roundin img:nth-child(1) {
+#poster2 .fp-tableCell .round .roundin img:nth-child(1) {
 	margin-top: -120.5px;
 	margin-left: -187.5px
 }
 
-#poster4 .fp-tableCell .round .roundin img:nth-child(2) {
+#poster2 .fp-tableCell .round .roundin img:nth-child(2) {
 	margin-top: -184.5px;
 	margin-left: -184.5px;
 	-moz-animation: oddrotate 10s linear 0s infinite;
@@ -1732,7 +1744,7 @@ html,body {
 	animation: oddrotate 10s linear 0s infinite
 }
 
-#poster4 .fp-tableCell .round .roundin img:nth-child(3) {
+#poster2.fp-tableCell .round .roundin img:nth-child(3) {
 	margin-top: -238.5px;
 	margin-left: -238.5px;
 	-moz-animation: evenrotate 15s linear 0s infinite;
@@ -1748,7 +1760,7 @@ html,body {
 	animation: oddrotate 20s linear 0s infinite
 }
 
-#poster4 .fp-tableCell .assay {
+#poster2 .fp-tableCell .assay {
 	width: 440px;
 	height: 200px;
 	position: absolute;
@@ -1761,7 +1773,7 @@ html,body {
 	transform: scale3d(0.8, 0.8, 1)
 }
 
-#poster4 .fp-tableCell .assay h3 {
+#poster2 .fp-tableCell .assay h3 {
 	-moz-transition: all 1s linear .5s;
 	-o-transition: all 1s linear .5s;
 	-webkit-transition: all 1s linear;
@@ -1771,7 +1783,7 @@ html,body {
 	opacity: 0
 }
 
-#poster4 .fp-tableCell .assay p {
+#poster2 .fp-tableCell .assay p {
 	color: #fefefe;
 	font-size: 20px;
 	line-height: 1.5;
@@ -1867,25 +1879,25 @@ html,body {
 	}
 }
 
-#poster4.active .fp-tableCell .round .roundin {
+#poster2.active .fp-tableCell .round .roundin {
 	-moz-transform: scale3d(1, 1, 1);
 	-ms-transform: scale3d(1, 1, 1);
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1)
 }
 
-#poster4.active .fp-tableCell .assay h3 {
+#poster2.active .fp-tableCell .assay h3 {
 	opacity: 1;
 	margin-left: 0
 }
 
-#poster4.active .fp-tableCell .assay p {
+#poster2.active .fp-tableCell .assay p {
 	opacity: 1;
 	margin-left: 0
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-	#poster4 .fp-tableCell .round {
+	#poster2 .fp-tableCell .round {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1893,7 +1905,7 @@ html,body {
 		left: 10%
 	}
 
-	#poster4 .fp-tableCell .assay {
+	#poster2 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1903,7 +1915,7 @@ html,body {
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-	#poster4 .fp-tableCell .round {
+	#poster2 .fp-tableCell .round {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1911,7 +1923,7 @@ html,body {
 		left: 18%
 	}
 
-	#poster4 .fp-tableCell .assay {
+	#poster2 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1921,7 +1933,7 @@ html,body {
 }
 
 @media screen and (min-width: 1920px) {
-	#poster4 .fp-tableCell .round {
+	#poster2 .fp-tableCell .round {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1929,7 +1941,7 @@ html,body {
 		left: 22%
 	}
 
-	#poster4 .fp-tableCell .assay {
+	#poster2 .fp-tableCell .assay {
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
@@ -1937,6 +1949,24 @@ html,body {
 		right: 22%
 	}
 }
+
+
+
+/*new poster3*/
+
+#poster3 .fp-tableCell {
+	position: relative
+}
+
+
+
+
+
+
+
+
+
+
 
 #product {
 	position: relative;

@@ -28,14 +28,14 @@
 			goUrl = 2;
 		}
 		if (goUrl == 0 || goUrl == 2) {//PC端、iPad
-			var now="http://www.zhiweidata.com";
-			if(window.location.href.indexOf("zhiwei.html")>=0){
+			var now="http://www.caadria2018.com";
+			if(window.location.href.indexOf("caadria2018.html")>=0){
 				window.location=now;
 			}
 		}
 		if(goUrl == 1){//移动端
 			var now="http://www.zhiweidata.com/zhiwei.html";
-			if(window.location.href.indexOf("zhiwei.html")<0){
+			if(window.location.href.indexOf("caadria2018.html")<0){
 					window.location=now;
 			}
 		}
@@ -63,26 +63,30 @@
         <div class="nav active" id="nav">
 
 
-        	<!-- path cannot be changed only by modify here -->
+        	<!-- top banner navigations here -->
             <svg id="svg"><desc>Created with Snap</desc><defs></defs><path d="M0 60 L555 60 L1280 60" stroke="#1885e8" fill="#3a3a45" id="line" style="stroke-width: 2;"></path></svg>
-            <a href="#b" class="navigation caadria" data-menuanchor="b">
+            <a href="#b" class="navigation caadria8" data-menuanchor="b">
             CAADRIA<br>
             <span>2018</span>
             </a>
-            <a href="#b/1" class="navigation caadria8" data-menuanchor="b/1">
+            <a href="#b/1" class="navigation callp" data-menuanchor="b/1">
             CALL FOR<br>
             <span>Paper+Shortpapers</span>
             </a>
             <a class="logo"></a>
-            <a href="#b/2" class="navigation tsda" data-menuanchor="b/2">
+            <a href="#b/2" class="navigation regist" data-menuanchor="b/2">
             REGISTRATION<br>
-            <span></span>
+            <span>Opening soon</span>
             </a>
-            <a href="#b/3" class="navigation acommo" data-menuanchor="b/3">
-            PROGRAMME<br>
-            <span>Exhi+Workshop</span>
+            <a href="#b/3" class="navigation schedu" data-menuanchor="b/3">
+            SCHEDULE<br>
+            <span>Timeline</span>
             </a>
-            <a href="#b/4" class="navigation other" data-menuanchor="c">
+             <a href="#b/4" class="navigation activs" data-menuanchor="b/4">
+            ACTIVITIES<br>
+            <span>To participate</span>
+            </a>
+            <a href="#c" class="navigation other" data-menuanchor="c">
             MORE<br>
             <span>To Discover</span>
             </a>
@@ -128,7 +132,7 @@
                 <a href="#b/2" class="layer regist" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
                     <p>REGISTRATION</p>
-                    <p>here</p>
+                    <p>Coming Soon</p>
                 </div>
                 </a>
 
@@ -142,7 +146,7 @@
 
                 <a href="#b/4" class="layer activs" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
-                    <p>PROGRAMME</p>
+                    <p>ACTIVITIES</p>
                     <p>Exhi+Workshops</p>
                 </div>
                 </a>
@@ -222,7 +226,7 @@
 
 
                 <!-- #b/1 -->
-                <div class="slide" id="poster3">
+                <div class="slide" id="poster1">
                     <div class="flower">
                         <img src="../img/flower1.png" alt="">
                         <img src="../img/flower2.png" alt="">
@@ -242,7 +246,7 @@
 
 
                 <!-- #b/2 -->
-                <div class="slide" id="poster4">
+                <div class="slide" id="poster2">
                     <div class="round">
                         <div class="roundin">
                             <img src="../img/sub.png" alt="">
@@ -251,12 +255,13 @@
                             <img src="../img/poster43.png" alt="">
                         </div>
                     </div>
+
                     <div class="assay">
                         <h3>
-                        <img src="../img/regi.png" alt="">
+                        <img  src="../img/regi.png" style="margin-top:200px; ">
                         </h3>
                         <p>
-                        Registration<br/>
+                        Opening Soon<br/>
                         <div style="font-size:20px;width:300;color:#FFF; text-align:justify;text-justify:newspaper">
                         This is the page for people who want to submit their personal information as members.</div>
                         </p>
@@ -265,33 +270,36 @@
 
                 
                 <!-- #b/3 -->
-                <div class="slide" id="poster2">
-                    <div class="earth">
-                        <a class="earthbody"><img src="../img/earth.png" alt=""></a>
-                        <a class="cloudone"><img src="../img/cloud-1.png" alt=""></a>
-                        <a class="cloudtwo"><img src="../img/cloud-2.png" alt=""></a>
-                        <a class="shadow"><img src="../img/earth-shadow.png" alt=""></a>
+                <div class="slide" id="poster3">
+                    <div class= "schedule">
                     </div>
+                    <div>
+
                     <div class="assay">
-                        <header class="title">
-                            <span class="year">
-                            2018
-                            </span>
-                            <span class="name">Conference<br>Schedule</span>
-                        </header>
-                        <p class="content">May&nbsp;14&nbsp;-&nbsp;16:&nbsp;&nbsp;&nbsp;&nbsp;Pre-Conference&nbsp;Workshop
-                            <br/>May&nbsp;17&nbsp;-&nbsp;19:&nbsp;&nbsp;&nbsp;&nbsp;Conference
-                            <br/>May&nbsp;20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;Post-Conference&nbsp;Tour
-                            <br/>Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;Tsinghua University.&nbsp; Beijing.
-                            <br/>Host &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;School of Architecture.
-                            </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DADA.             
-                        </p>
-                        <p class="sponsor"></p>
+                        <h3>Call For Paper</h3>
+                        <p>Short-Papers<br/>
+                        Workshops<br/>
+                        Papers</p>
                     </div>
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
                 </div>
 
                 <!-- #b/4 -->                
-                <div class="slide" id="poster2">
+                <div class="slide" id="poster4">
                     <div class="earth">
                         <a class="earthbody"><img src="../img/earth.png" alt=""></a>
                         <a class="cloudone"><img src="../img/cloud-1.png" alt=""></a>
@@ -337,34 +345,7 @@
             </div>
            
            <!-- CAADRIA2018 #c  -->
-            <div class="section fp-section fp-table" id="case" data-anchor="c" style="height: 1200px;"><div class="fp-tableCell" style="height:1200px;">
-             <div class="flower">
-                        <img src="../img/flower1.png" alt="">
-                        <img src="../img/flower2.png" alt="">
-                        <img src="../img/flower3.png" alt="">
-                        <img src="../img/flower4.png" alt="">
-                        <svg id="svg">
-                        <path d="M393 201Q335 108 236 89Q136 88 117 245Q210 386 320 403" stroke-width="1" stroke="#1885e8" fill="none"></path>
-
-
-                        </svg>
-                    </div>
-                    <div class="assay">
-                        <h3>Call For Paper</h3>
-                        <p>Short-Papers<br/>
-                        Workshops<br/>
-                        Papers</p>
-                    </div>
-            </div>
-
-
-           
-
-
-
-
-            <!-- CAADRIA2018    -->
-            <!-- <div class="section fp-section fp-table" id="product" data-anchor="c" style="height: 611px;">
+            <div class="section fp-section fp-table" id="product" data-anchor="c" style="height: 611px;">
             <div class="fp-tableCell" style="height:100px;">
          
 		  		<div id="mask" class="mask">
@@ -439,17 +420,27 @@
                       <li>???</li>
                     </ul>
                    </div>
-                </div> -->
+                </div>
 
-            <!-- CAADRIA2018 #???   -->
 
 
 
             </div></div>
-            <!-- TSDA -->
+
+           
+
+
+
+
+            
+
+
+            </div></div>
+            <!-- TSDA  #d -->
 
             <!-- //height=1200px is a trial number, how we can guarentee the page being fullpaged -->
-            <div class="section fp-section fp-table" id="case" data-anchor="d" style="height: 1200px;"><div class="fp-tableCell" style="height:1200px;">
+            <div class="section fp-section fp-table" id="case" data-anchor="d" style="height: 1200px;">
+            <div class="fp-tableCell" style="height:1200px;">
                <ul class="wrap">
                     <li class="caseone case focuson">
                         <div class="mask">
@@ -616,7 +607,7 @@
             </div></div>
 
 
-            <!-- INFORMATION -->
+            <!-- INFORMATION #e -->
             <div class="section fp-section fp-table" id="product" data-anchor="e" style="height: 611px;">
             <div class="fp-tableCell" style="height:100px;">
          
@@ -706,7 +697,7 @@
 
 
 
-            <!-- PEOPLE -->
+            <!-- PEOPLE  #f-->
             <div class="section fp-section fp-table" id="aboutUs" data-anchor="f" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="fp-tableCell" style="height:611px;">
                  
                   <div class="team">
