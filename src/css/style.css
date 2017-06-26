@@ -32,6 +32,43 @@ html,body {
 	font-family: "Arial,'Times New Roman','Microsoft YaHei',SimHei;"
 }
 
+
+a:-moz-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+
+a:-ms-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+
+
+
+
 #fp-nav.right {
 	right: 80px
 }
@@ -305,6 +342,34 @@ html,body {
 }
 
 #product.fp-prev:hover {
+	background-position: 0px 0
+}
+
+/*poster1 cursor**/
+
+
+#poster1 .fp-controlArrow {
+	border: none;
+	width: 41px;
+	height: 41px;
+	background: url(../img/arrow.png)
+}
+
+#poster1 .fp-next {
+	background-position: 41px 0;
+	right: 5%
+}
+
+#poster1 .fp-next:hover {
+	background-position: -41px 0
+}
+
+#poster1 .fp-prev {
+	left: 5%;
+	background-position: 82px 0
+}
+
+#poster1.fp-prev:hover {
 	background-position: 0px 0
 }
 
@@ -2783,7 +2848,7 @@ html,body {
 #case .wrap .caseone .assay p {
 	font-size: 14px;
 	color: #fefefe;
-	line-height: 40px;
+	line-height: 30px;
 	margin-bottom: 0;
 	margin-top: 0;
 	text-indent: 2em;
