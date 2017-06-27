@@ -2021,86 +2021,198 @@ html,body {
 }
 
 #poster3  .timeline {
-	left: 10%
-	top:10%;
+	
+	top:45%;
 	z-index: -1
 	
 }
 
-
+/*timeline1*/
 #poster3  .time11 {
-	left: 10%
-	top:10%;
+	font-size: 20px;
+	color:#FFF;
+	left: 12%;
+	top: 25%;
+	text-align: center;
+	
+}
+
+#poster3  .time12 {
+	font-size: 20px;
+	color: #FFF;
+	left: 12%;
+	top: 35%;
+	text-align: center;
+	
+}
+
+#poster3  .time13 {
+	font-size: 20px;
+	color: #FFF;
+	left: 10%;
+	top: 60%;
+	text-align: center;
 	
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/*#poster3 .fp-tableCell .flower img:nth-child(1) {
-	left: 40%;
-	top: 10%;
-	-moz-transform: scale3d(0, 0, 1);
-	-ms-transform: scale3d(0, 0, 1);
-	-webkit-transform: scale3d(0, 0, 1);
-	transform: scale3d(0, 0, 1);
-	-moz-transition: all 1.5s ease 1.5s;
-	-o-transition: all 1.5s ease 1.5s;
-	-webkit-transition: all 1.5s ease;
-	-webkit-transition-delay: 1.5s;
-	transition: all 1.5s ease 1.5s
+#poster3  .time14 {
+	font-size: 20px;
+	color: #FFF;
+	left: 12%;
+	top: 73%;
+	text-align: center;
+	
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(2) {
-	left: 0%;
+
+#poster3  .time15 {
+	font-size: 20px;
+	color: #FFF;
+	left: 12%;
+	top: 88%;
+	text-align: center;
+	
+}
+
+/*timeine2*/
+#poster3  .time20 {
+	font-size: 20px;
+	color:#FFF;
+	left: 36%;
+	top: 15%;
+	text-align: center;
+	
+}
+
+
+#poster3  .time21 {
+	font-size: 20px;
+	color:#FFF;
+	left: 36%;
 	top: 25%;
-	-moz-transform: scale3d(0, 0, 1);
-	-ms-transform: scale3d(0, 0, 1);
-	-webkit-transform: scale3d(0, 0, 1);
-	transform: scale3d(0, 0, 1);
-	-moz-transition: all 2.5s ease .5s;
-	-o-transition: all 2.5s ease .5s;
-	-webkit-transition: all 2.5s ease;
-	-webkit-transition-delay: .5s;
-	transition: all 2.5s ease .5s
+	text-align: center;
+	
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(3) {
-	left: 65%;
-	top: 26%;
-	-moz-transform: scale3d(0, 0, 1);
-	-ms-transform: scale3d(0, 0, 1);
-	-webkit-transform: scale3d(0, 0, 1);
-	transform: scale3d(0, 0, 1);
-	-moz-transition: all 3.5s ease 1s;
-	-o-transition: all 3.5s ease 1s;
-	-webkit-transition: all 3.5s ease;
-	-webkit-transition-delay: 1s;
-	transition: all 3.5s ease 1s
+#poster3  .time22 {
+	font-size: 20px;
+	color: #FFF;
+	left: 36%;
+	top: 35%;
+	text-align: center;
+	
 }
 
-#poster3 .fp-tableCell .flower img:nth-child(4) {
-	left: 45%;
+#poster3  .time23 {
+	font-size: 20px;
+	color: #FFF;
+	left: 36%;
 	top: 60%;
-	-moz-transform: scale3d(0, 0, 1);
-	-ms-transform: scale3d(0, 0, 1);
-	-webkit-transform: scale3d(0, 0, 1);
-	transform: scale3d(0, 0, 1);
-	-moz-transition: all 2.5s ease .8s;
-	-o-transition: all 2.5s ease .8s;
-	-webkit-transition: all 2.5s ease;
-	-webkit-transition-delay: .8s;
-	transition: all 2.5s ease .8s
+	text-align: center;
+	
 }
-*/
+
+
+#poster3  .time24 {
+	font-size: 20px;
+	color: #FFF;
+	left: 36%;
+	top: 70%;
+	text-align: center;
+	
+}
+
+
+#poster3  .time25 {
+	font-size: 20px;
+	color: #FFF;
+	left: 36%;
+	top: 80%;
+	text-align: center;
+	
+}
+
+#poster3  .time26 {
+	font-size: 20px;
+	color: #FFF;
+	left: 36%;
+	top: 90%;
+	text-align: center;
+	
+}
+
+
+/*timeline3*/
+
+#poster3  .time30 {
+	font-size: 20px;
+	color:#FFF;
+	left: 59%;
+	top: 15%;
+	text-align: center;
+	
+}
+
+
+#poster3  .time31 {
+	font-size: 20px;
+	color:#FFF;
+	left: 59%;
+	top: 25%;
+	text-align: center;
+	
+}
+
+#poster3  .time32 {
+	font-size: 20px;
+	color: #FFF;
+	left: 59%;
+	top: 35%;
+	text-align: center;
+	
+}
+
+#poster3  .time33 {
+	font-size: 20px;
+	color: #FFF;
+	left: 59%;
+	top: 60%;
+	text-align: center;
+	
+}
+
+
+#poster3  .time34 {
+	font-size: 20px;
+	color: #FFF;
+	left: 59%;
+	top: 70%;
+	text-align: center;
+	
+}
+
+
+#poster3  .time35 {
+	font-size: 20px;
+	color: #FFF;
+	left: 58%;
+	top: 80%;
+	text-align: center;
+	
+}
+
+/*timeline4*/
+
+
+#poster3  .time43 {
+	font-size: 20px;
+	color: #FFF;
+	left: 80%;
+	top: 30%;
+	text-align: center;
+	
+}
 
 
 @-moz-keyframes showline {
