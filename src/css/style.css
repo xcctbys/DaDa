@@ -786,7 +786,8 @@ a:-ms-any-link {
 
 
 #logo .text p {
-	margin: 0
+	
+	: 0
 }
 
 #logo .text2 p {
