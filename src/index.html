@@ -9,7 +9,8 @@
         <link href="../css/animate.min.css" rel="stylesheet">
         <link href="../css/jquery.fullPage.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
-        <script src="../js/hm.js"></script><script type="text/javascript">
+        <script src="../js/hm.js"></script>
+        <script type="text/javascript">
         var sUserAgent = navigator.userAgent;
 		var mobileAgents = [ 'Android', 'iPhone', 'Symbian', 'Windows Phone','WindowsPhone',
 				'iPod', 'BlackBerry', 'Windows CE' ];
@@ -37,6 +38,7 @@
 			}
 		}
         </script>
+         <script src="../js/tabchange.js"></script>
         <script src="../js/jquery-2.1.4.min.js"></script>
         <script src="../js/snap.svg.js"></script>
 		
@@ -61,9 +63,15 @@
 
 
         	<!-- top banner navigations here -->
-            <svg id="svg"><desc>Created with Snap</desc><defs></defs><path d="M0 60 L555 60 L2500 60" stroke="#cabf3f" fill="none" style=" stroke-width: 2;"></path></svg>
-            <svg id="svg"><desc>Created with Snap</desc><defs></defs><path d="M0 60 L555 60 L2500 60" stroke="#cabf3f" fill="none" style="stroke-width: 3;"></path></svg>
+            <svg id="svg"><desc>Created with Snap</desc><defs></defs><path d="M0 60 L555 60 L2500 60" stroke="#FFF100" fill="none" style=" stroke-width: 2;"></path></svg>
+            <svg id="svg"><desc>Created with Snap</desc><defs></defs><path d="M0 60 L555 60 L2500 60" stroke="#FFF100" fill="none" style="stroke-width: 3;"></path></svg>
 
+
+
+            <a href="#a" class="navigation main" data-menuanchor="a">
+            MAIN<br>
+            <span>PAGE</span>
+            </a>
 
             <a href="#b" class="navigation caadria8" data-menuanchor="b">
             CAADRIA<br>
@@ -71,7 +79,7 @@
             </a>
             <a href="#b/1" class="navigation callp" data-menuanchor="b/1">
             CALL FOR<br>
-            <span>Paper+Shortpapers</span>
+            <span>Paper</span>
             </a>
             <a class="logo"></a>
             <a href="#b/2" class="navigation regist" data-menuanchor="b/2">
@@ -82,44 +90,42 @@
             SCHEDULE<br>
             <span>Timeline</span>
             </a>
-             <a href="#b/4" class="navigation activs" data-menuanchor="b/4">
-            ACTIVITIES<br>
-            <span>To participate</span>
-            </a>
+            
             <a href="#c" class="navigation other" data-menuanchor="c">
             MORE<br>
             <span>To Discover</span>
             </a>
-            <div id="telside">
 
-                <div><img src="../img/tel.png" alt="">联系电话: <br>010-62790661</div>
-                
-				<!-- <a id="qqchat" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2849888083&amp;site=qq&amp;menu=yes" style="margin-top:30px"><img border="0" src="./img/learning.png" alt="点击这里给我发消息" title="点击这里给我发消息"></a> -->
-            </div>
+            <a href="#f" class="navigation contact" data-menuanchor="f">
+            CONTACT<br>
+            <span>Us</span>
+            </a>
+            
+            
             
         </div>
         <div class="turnPage">
 			
-          <img src="../img/mouse.png" alt="">
-          <img src="../img/uparrow.png" alt="" class="up velocity-animating" style="top: 1.08151px; display: block;width: 18px;">
-          <img src="../img/downarrow.png" alt="" class="down velocity-animating" style="top: 58.0815px;width: 18px;">
-		  <span>SLIDE or CLICK</span>
+          <img style=" opacity: 0.6;" src="../img/mouse.png" alt="">
+          <img src="../img/uparrow.png" alt="" class="up velocity-animating" style=" opacity: 0.6; top: 1.08151px; display: block;width: 18px;">
+          <img src="../img/downarrow.png" alt="" class="down velocity-animating" style=" opacity: 0.6;top: 58.0815px;width: 18px;">
+		  <span style=" opacity: 0.6;">SLIDE or CLICK</span>
         </div>
+
         <div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, -611px, 0px); transition: all 0ms ease;">
 
 
             <!-- WELCOME PAGE #a -->
 
-            <div class="section  fp-section fp-table" id="logo" data-anchor="a" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="fp-tableCell" style="height:611px;">
+            <div class="section  fp-section fp-table" id="logo" data-anchor="a" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            <div class="fp-tableCell" style="height:100%;">
              
               <a href="#b" class="layer caad18 " data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                 <div class="text">
                     <p>CAADRIA2018</p>
                     <p>Preface</p>
                 </div>
-                </a>
-                                 
-
+                </a>                
 
                 <a href="#b/1" class="layer callp " data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
@@ -128,9 +134,7 @@
                 </div>
                 </a>
 
-
-
-                <a href="#b/2" class="layer regist" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <a href="#b/3" class="layer regist" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
                     <p>REGISTRATION</p>
                     <p>Coming Soon</p>
@@ -138,17 +142,19 @@
                 </a>
 
                 
-                <a href="#b/3" class="layer sched" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <a href="#b/4" class="layer sched" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
                     <p>SCHEDULE</p>
                     <p>Timeline</p>
                 </div>
                 </a>
 
-                <a href="#b/4" class="layer activs" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <a href="#b/2" class="layer activs" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                      <div class="text">
-                    <p>ACTIVITIES</p>
-                    <p>Exhi+Workshops</p>
+                    <p>CALL FOR</p>
+                    <p>Short-Paper</p>
+                    <p style="color: #FFF;">Poster</p>
+                    <p style="color: #FFF;">Workshop</p>
                 </div>
                 </a>
 
@@ -176,6 +182,10 @@
                 <div class="cloud layer" data-depth="0.05" style="width:900px; height:900px; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                 
                     <img src="../img/caadria.png" alt="cloud"  style="width:100%;" >
+                    </br>
+                    </br>
+                    </br>
+                    </br>
 
                     <a href="#c">                                   
                     <img src="../img/caadria2.png" alt="cloud"  style="width:100%;" >
@@ -183,13 +193,7 @@
                     
                 </div>
 
-                <!-- <div class="cloud2 layer" data-depth="0.05" style="width:900px; height:900px; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden; ">
-                   
-                    
-                    </a>
-                </div> -->
-
-                
+                              
 
 
 
@@ -205,21 +209,21 @@
                 <img src="../img/icon8.png" alt="8" class="eight layer" data-depth="0.55" style="position: absolute; display: block; transform: translate3d(13.5573px, 8.65446px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"> -->
 
               <!--   <img src="../img/icon5.png" alt="5" class="nine layer" data-depth="0.65" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"> -->
-
-                 
+                
             </div></div>
 		
             <!-- CAADRIA2018 theme paragraph #b-->            
              <div class="section" id="poster1" data-anchor="b" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+              
                <div class="slide" id="poster">
-                        <div class="assay2">
+                        <div class="assay3">
                         
-                        <h3 style = "color:#cabf3f; font-size : 40px;">
+                        <h3 style = "color:#FFF100; font-size : 60px;">
                         CAADRIA2018
                         <br/>PREFACE
                         <br/>
                         <div>
-                        <p style="font-size:28px;width:800px;color:#FFF; text-align:justify;text-justify:newspaper">The rapid evolution of technologies is shaping our societies and understanding of architecture discipline at all fronts. The computational development in fields such as Machine Learning, Data Mining, enables the creation of cognitive networks that could perceive current social conditions, plan, decide, act on every changing scenario, learn from the consequences of its actions, and recognize future patterns out of complex activity networks. Connecting the enriching past, disruptive present and navigation of the future, digital technologies has allowed architecture to sprawl out of the static box. Capability of adapting to the complex social environmental challenges, prototyping and verifying the physical solution along the rapidly drifting realities has become a core challenges to the architecture discipline.
+                        <p style="font-size:26px;width:800px;color:#FFF; text-align:justify;text-justify:newspaper">The rapid evolution of technologies is shaping our societies and understanding of architecture discipline at all fronts. The computational development in fields such as Machine Learning, Data Mining, enables the creation of cognitive networks that could perceive current social conditions, plan, decide, act on every changing scenario, learn from the consequences of its actions, and recognize future patterns out of complex activity networks. Connecting the enriching past, disruptive present and navigation of the future, digital technologies has allowed architecture to sprawl out of the static box. Capability of adapting to the complex social environmental challenges, prototyping and verifying the physical solution along the rapidly drifting realities has become a core challenges to the architecture discipline.
                         <br/>
                         The advancing technologies is allowing the generation a new framework of digital workflows that engages the rising challenges from all angles. The learning network that recognize patterns from massive data, rapid prototyping system that flexibly iterated innovative physical solutions, and the adaptive design method to address the dynamic future, together contribute to a system frame work of architecture discipline that potentially could learns from the past (situations, plans, decisions, actions) and uses this knowledge to consciously adapt the design and evolve toward the none static future.
                         </p>
@@ -233,201 +237,91 @@
 
                 <!-- #b/1 -->
                 <div class="slide" id="poster1">
-                    <div class="flower">
-                       <!--  <img src="../img/flower1.png" alt="">
-                        <img src="../img/flower2.png" alt="">
-                        <img src="../img/flower3.png" alt="">
-                        <img src="../img/flower4.png" alt="">
-                        <svg id="svg">
-                        <path d="M393 201Q335 108 236 89Q136 88 117 245Q210 386 320 403" stroke-width="1" stroke="#1885e8" fill="none"></path> -->
-                        </svg>
-                    </div>
+                    
                     <div class="assay">
-                        <h3>Call For Paper</h3>
-                        <p>Short-Papers<br/>
-                        Workshops<br/>
-                        Papers</p>
+                        <h3><a style = "font-size: 80px;">C</a>ALL FOR PAPER</h3>
                     </div>
+                    <div class = "assay2" >
+                        <li style= "font-size:50px; color: #FFF000;">
+                        Papers</li>
+                    </div>
+                    <div class = "assay4" >
+                        <p>
+                        Abstract submission (500 words): 2 October 2017<br>
+                        Notification of abstract acceptance: 30 October 2017<br>
+                        Full paper submission: Extended to 25 December 2017<br>
+                        Full paper Proceedings system: www.caadria.org/proceedings<br>
+                        Notification of full paper acceptance: 29 January 2018<br>
+                        Camera-ready full paper submission: 19 February 2018<br>
+                        </p>
+                    </div>
+                    
                 </div>
 
-
                 <!-- #b/2 -->
-                <div class="slide" id="poster2">
-                    <div class="round">
-                        <!-- <div class="roundin">
-                            <img src="../img/sub.png" alt="">
-                            <img src="../img/poster41.png" alt="">
-                            <img src="../img/poster42.png" alt="">
-                            <img src="../img/poster43.png" alt="">
-                        </div> -->
+                <div class="slide" id="poster11">
+                    
+                    <div class="assay">
+                        <h3 ><a style = "font-size: 80px;">C</a>ALL FOR</h3>
                     </div>
-
+                    
+                    <div class="tabs">
+                  
+                    </div>
+            	</div>
+              
+                <!-- #b/3 -->
+                <div class="slide" id="poster2">               
                     <div class="assay">
                         <h3>
-                        <img  src="../img/regi.png" style="margin-top:200px; width:200px ">
+                        <img  src="../img/regi.png" style="margin-top:200px; width:400px;height: 120%;">
                         </h3>
-                        <p>
-                        Opening Soon<br/>
+                    </div>
+
+                    <div>
+                        <p class = "assay4" style = " ">
+                        Opening Soon<br/><br/><br/>
+                        Opening Soon<br/><br/><br/>
+                        Opening Soon<br/><br/><br/>
+                        Opening Soon<br/><br/><br/>
                         
                         </p>
                     </div>
+
+                    <!-- <div class = "assay4">
+                    wahtwawahtwahtwahtwahtwaht
+
+                    </div> -->
                 </div>
 
                 
-                <!-- #b/3 -->
-                <div class="slide" id="poster3">
-                                                       
-                    <!-- class="assay" -->                     
-                    <div class= "timeline" data-depth="0.05" style=" text-align: center; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden; " >
-                        <img src="../img/timeline1.png" alt="" style="margin: 0 auto; width: 80%">
-                   
-                    </div>
-
-                    <!-- timeline1 -->
-                <div>
-                <a  class="time11" data-depth="0.10" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 1</p>
-                    <p>9:00-12:00</p>
-                </div>
-                </a>
-                <a  class="time12" data-depth="0.20" style="position: absolute; ">
-                     <div class="p">
-                    <p>LUNCH</p>
-                    <p>12:20-13:20</p>
-                </div>
-                </a>
-                <a  class="time13" data-depth="0.30" style="position: absolute; ">
-                     <div class="p">
-                    <p>WS PRESENTATION
-                    </br>EXHIBITION</p>
-                    <p>13:30-15:30</p>
-                </div>
-                </a>
-                <a  class="time14" data-depth="0.50" style="position: absolute; ">
-                     <div class="p">
-                    <p>OPENING
-                    </br>CEREMONY</p>
-                    <p>16:00-18:00</p>
-                </div>
-                </a>
-                <a  class="time15" data-depth="0.70" style="position: absolute; ">
-                     <div class="p">
-                    <p>EXCURSION </br>VIP DINNER</p>
-                    <p>18:30-21:30</p>
-                </div>
-                </a>
-
-                <!-- timeline2 -->
-                <a  class="time20" data-depth="0.10" style="position: absolute; ">
-                     <div class="p">
-                    <p>KEYNOTE 2</p>
-                    <p>9:00-10:00</p>
-                </div>
-                </a>
-				<a  class="time21" data-depth="0.10" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 2</p>
-                    <p>10:20-12:00</p>
-                </div>
-                </a>
-                <a  class="time22" data-depth="0.20" style="position: absolute; ">
-                     <div class="p">
-                    <p>LUNCH</p>
-                    <p>12:20-13:20</p>
-                </div>
-                </a>
-                <a  class="time23" data-depth="0.30" style="position: absolute; ">
-                     <div class="p">
-                    <p>KEYNOTE 3</p>
-                    <p>13:30-14:40</p>
-                </div>
-                </a>
-                <a  class="time24" data-depth="0.50" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 3</p>
-                    <p>15:00-16:00</p>
-                </div>
-                </a>
-                <a  class="time25" data-depth="0.50" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 4</p>
-                    <p>16:20-18:00</p>
-                </div>
-                </a>
-                <a  class="time26" data-depth="0.70" style="position: absolute; ">
-                     <div class="p">
-                    <p>DINNER</p>
-                    <p>18:30-21:30</p>
-                </div>
-                </a>
-
-                <!-- timeline3 -->
-                <a  class="time30" data-depth="0.10" style="position: absolute; ">
-                     <div class="p">
-                    <p>KEYNOTE 4</p>
-                    <p>9:00-10:00</p>
-                </div>
-                </a>
-				<a  class="time31" data-depth="0.10" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 5</p>
-                    <p>10:20-12:00</p>
-                </div>
-                </a>
-                <a  class="time32" data-depth="0.20" style="position: absolute; ">
-                     <div class="p">
-                    <p>LUNCH</p>
-                    <p>12:20-13:20</p>
-                </div>
-                </a>
-                <a  class="time33" data-depth="0.30" style="position: absolute; ">
-                     <div class="p">
-                    <p>KEYNOTE 5</p>
-                    <p>13:30-14:40</p>
-                </div>
-                </a>
-                <a  class="time34" data-depth="0.50" style="position: absolute; ">
-                     <div class="p">
-                    <p>SESSION 6</p>
-                    <p>15:00-16:00</p>
-                </div>
-                </a>
-                <a  class="time35" data-depth="0.50" style="position: absolute; ">
-                     <div class="p">
-                    <p>CAADRIA AGM</p>
-                    <p>16:30-18:00</p>
-                </div>
-                </a>
-
-                <!-- timeline4 -->
-                <a  class="time43" data-depth="0.30" style="position: absolute; ">
-                     <div class="p">
-                    <p style="font-size:25px">TOURISM</p>
-                    <p>9:00-16:00</p>
-                </div>
-				</div>
-
-                </a>
-                </div>
-
- 
-
-                <!-- #b/4 -->                
-                <div class="slide" id="poster4">
+                <!-- #b/4 -->
+                <div class="slide" id="poster3">                            
                     
-                    <div class="assay">
-                        <h3>
-                        <img  src="../img/activ.png" style="margin-top:200px; width:200px ">
-                        </h3>
-                        <p>
-                        Opening Soon<br/>
-                        
-                        </p>
+                    <div>                    
+                        <div class= "timeline" data-depth="0.05" style=" text-align: center; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden; " >
+                            <img src="../img/timeline1.png" alt="" style="margin: 0 auto; width: 70%">
+                       
+                        </div>
                     </div>
-                </div>
-                </div>
 
+                <!-- timeline1 -->
+                <table  border="0" style =" width:300px;text-align= center;">
+                    <span  style = "height: 100px"><img src="..img/timeline11.png"></span>
+                    <br>
+                    <span><img src="..img/timeline12.png" style = "width: 100%"></span>
+                    
+                </table>             
+                
+
+
+
+                </div>
+                
+                </div>
+                
+                
+               
         
            
            <!-- CAADRIA2018 #c  -->
@@ -437,11 +331,11 @@
                 <div class="slide">
                 <div class="mainWrap">
                     
-                   <div class="weiboreach caadr">
-                   <div style="font-size:20px;width:300;color:#FFF; text-align:justify;text-justify:newspaper"><p>
+                   <div class="weiboreach caadria">
+                   <div style="font-size:22px;width:800px;color:#FFF; text-align:justify; text-justify:newspaper"><p>
                      The Association for Computer-Aided Architectural Design Research in Asia (CAADRIA) promotes teaching and research in CAAD in Asia, and has members on six continents. It organizes an annual conference, the first of which was held in 1996 in Hong Kong. Since then, 20 conferences have been held in Australia, China, Hong Kong, India, Japan, Korea, Malaysia, Singapore, Taiwan, and Thailand. The next conference, in 2015, will be held in Kyungpook National University Daegu, Korea. The conferences provide an opportunity for teachers, students, researchers, and practitioners to meet each other and learn about the latest research in the field. The proceedings of the conferences are available both on line and in research libraries around the world.
                      </p></div>
-                   <ul style="margin-top: 10px">
+                   <ul style="margin-top: 20px; color:#FFF100;font-size: 20px;">
                      <li>1996 firstly in Hong Kong.</li>
                      <li>22 conferences have been held</li>
                      <li>the latest research in the field</li>
@@ -456,7 +350,7 @@
                     
                    <div class="weiboreach caadr">
                    
-                   <div style="font-size:20px;width:300;color:#FFF; text-align:justify;text-justify:newspaper"><p>
+                   <div style="font-size:22px;width:800px;color:#FFF; text-align:justify; text-justify:newspaper"><p>
 	               CAADRIA was founded in 1996 with the following objectives: To facilitate the dissemination of information about CAAD among Asian schools of architecture, planning, engineering, and building sciences. To encourage the exchange of staff, students, experience, courseware, and software among schools. To identify research and develop needs in CAAD education and to initiate collaboration to satisfy them. To promote research and teaching in CAAD that enhances creativity rather than production. CAADRIA is one of the four founding organizations of the International Journal of Architectural Computing (IJAC), and supervises one issue each year. IJAC is published by Multi-Science in both paper and electronic versions.
 	               </p></div>
                    
@@ -472,16 +366,16 @@
                     
                    <div class="weiboreach caadr">
                    
-             		<div style="font-size:20px;width:300;color:#FFF; text-align:justify;text-justify:newspaper"><p>
+             		<div style="font-size:22px;width:800px;color:#FFF; text-align:justify; text-justify:newspaper"><p>
 
                  	The General Membership governs CAADRIA through elected representatives or directly by representation at meetings or through postal ballots. For most activities, this means that CAADRIA is governed by elected Administrative Council elected by the membership. Responsibility for organization, administration and guidance of the association shall be delegated to this Council by virtue of the election of the officers. Membership of the council shall be restricted to members working in countries within the Asia Pacific region; terms of office are for two years. No member of this council may be elected for more than two consecutive terms (four years).
                  	</p></div>
                   
-                    <ul style="margin-top: 10px;">
+                    <ul style="margin-top: 20px; color:#FFF100; font-size: 20px;">
+                      <!-- <li>???</li>
                       <li>???</li>
                       <li>???</li>
-                      <li>???</li>
-                      <li>???</li>
+                      <li>???</li> -->
                     </ul>
                    
                    </div>
@@ -492,7 +386,6 @@
               </div></div>     
 
             <!-- TSDA  #d -->
-
             <!-- //height=1200px is a trial number, how we can guarentee the page being fullpaged -->
             <div class="section fp-section fp-table" id="case" data-anchor="d" style="height: 1200px;">
             <div class="fp-tableCell" style="height:1200px;">
@@ -509,19 +402,21 @@
                       <!-- <img src="../img/texts.png" alt=""> -->
                     <svg id="linessvg"></svg>
                        </div>
+                       
+
+
                        <div class="assay">
                            <h3 class="title">
                            TSINGHUA<br>
                            School of Architecture
                            </h3>
                            <div class="content">
-                           <div class="logos"><img src="../img/tsalogo.png" alt=""></div>
-                           <div style="font-size:15px;width:300;color:#FFF; text-align:justify;text-justify:newspaper"><p>
+                           <div class="logos" style="width:200px;"><img src="../img/tsalogo.png" alt="" style="width: 100%">
+                            </div>
+                            <div style="font-size:20px;width:500;color:#FFF; text-align:justify;text-justify:newspaper"><p>
                            Established in 1946 by the renowned architectural scholar Liang Sicheng, is one of the earliest architectural schools in China and has undergone development of seventy years. Guided by Liang Sicheng’s “theory of physical environment” and then Wu Liangyong’s “theory of science of human settlements”, which won the State Science and Technology Top Award, Tsinghua SA has been widely recognized as an academic leader in the field of architecture in China and an institute with high worldwide reputation as well.
                            </p>
-                           <p>
-                           
-                           </p></div>
+                           </div>
                            </div>
                        </div> 
                     </li>
@@ -548,7 +443,7 @@
                       <div class="assay">
                           <h3>DADA<br>Digital Architecture Design Association</h3>
                           <div class="content">
-                              <div style="font-size:15px;width:300;color:#FFF; text-align:justify;text-justify:newspaper"><p>
+                              <div style="font-size:20px;width:500;color:#FFF; text-align:justify;text-justify:newspaper"><p>
                               An official organization under the Architect Association of the Architectural Society of China. Founded in 2012, DADA aims to unite architects, scholars, enterprises, institutions and academic organizations in the building industry in China that works in the realm of digital architecture, to facilitate domestic and international academic exchanges on digital architectural design, to propel digital architectural research and practice, to promote the dissemination of digital architectural knowledge and technologies; at the same time, actively guide the communication and connection of different area in the building industry, including design, production, construction and operation, and contribute to the building industry in its process of integrated promotion into a new sustainable industrial chain. 
                               </p></div>
                               <!-- <div class="logos">
@@ -563,7 +458,7 @@
                                   </div>
                                   <div class="container">
                                       <div class="media">
-                                          <img src="../img/qrcode.jpg" width="100",height="100" alt="">
+                                          <img src="../img/qrcode.png" style="width:260px">
                                       </div>
                                       <div class="video">
                                           <ul>
@@ -642,29 +537,22 @@
 
 
             <!-- INFORMATION #e -->
-            <div class="section fp-section fp-table" id="product" data-anchor="e" style="height: 611px;">
+           <!--  <div class="section fp-section fp-table" id="product" data-anchor="e" style="height: 611px;">
             <div class="fp-tableCell" style="height:100px;">
          
-                <div id="mask" class="mask">
-                    <div class="longImage">
-                        <img src="../img/spread.png" alt="">
-                    </div>
-                </div>
+               
                 <div class="leftBg">
                     <img src="../img/productbgline.png" alt="">
                     <img src="../img/productbgb.png" alt="">
                     <img src="../img/productbground.png" alt="">
                     <img src="../img/productbgs.png" alt="">
                 </div>
-                <div class="rightBg">
-                    <img src="../img/productbground.png" alt="">
-                    <img src="../img/productbgr.png" alt="">
-                </div>
+                
                 
                 <div class="mainWrap">
                     
                    <div class="weiboreach pro">
-                   <a href="http://www.weiboreach.com/" target="_blank">
+                  
                    <div class="img">
                     
                    </div>
@@ -728,31 +616,26 @@
             </div>
             </div>
 
-
+ -->
 
             <!-- PEOPLE  #f-->
             <div class="section fp-section fp-table" id="aboutUs" data-anchor="f" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="fp-tableCell" style="height:611px;">
-                 
-
-
-               
-
                 
                 <footer>
                     <a><span class="logo"></span>www.caadria2018.com</a>
                     <a><span class="logo"></span>010-62790661</a>
-                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2849888083&amp;site=qq&amp;menu=yes"><span class="logo"></span>010-62790660</a>
+                    <a target="_blank"><span class="logo"></span>010-62790660</a>
                     <a href="www.caadria2018.com"><span class="logo"></span>Tsinghua+DADA</a>
                     <a><span class="logo"></span>CAADRIA</a>
-                    <a><span class="logo"></span>whatelse</a>
+                    <a><span class="logo"></span>Architecture</a>
 					<a class="copyright">
-						©2017-2018 www.caadria2018.com<br>
+						©2017-2018 caadria2018<br>
                         All Rights Reserved.
 						
 						</a>
 
 
-					<img src="../img/qrcode.jpg" class="qrcode" style="width:100px">
+					<img src="../img/qrcode.png" class="qrcode" style="width:180px">
 
                 </footer>
 
@@ -767,7 +650,29 @@
         <script src="../js/jquery.fullPage.js"></script>
         <script src="../js/jquery.parallax.js"></script>
         <script src="../js/velocity.min.js"></script>
-        <script src="../js/TD.js"></script><div id="fp-nav" class="right" style="margin-top: -53.5px;"><ul><li><a href="#a" class=""><span></span></a></li><li><a href="#b" class="active"><span></span></a></li><li><a href="#c" class=""><span></span></a></li><li><a href="#d"><span></span></a></li><li><a href="#e"><span></span></a></li></ul></div>
+        <script src="../js/TD.js"></script>
+        <div id="fp-nav" class="right" style="margin-top: -53.5px;">
+        <ul>
+            <!-- <li>
+                <a href="#a"><span></span></a>
+            </li>
+            <li>
+                <a href="#b"><span></span></a>
+            </li>
+            <li>
+                <a href="#c"><span></span></a>
+            </li>
+            <li>
+                <a href="#d"><span></span></a>
+            </li>
+            <li>
+                <a href="#e"><span></span></a>
+            </li>
+            <li>
+                <a href="#f"><span></span></a>
+            </li> -->
+        </ul>
+        </div>
 
    		<script type="text/javascript" src="../js/flowmonitoring.js"></script>
         <script>  
