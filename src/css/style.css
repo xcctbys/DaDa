@@ -748,10 +748,9 @@ a:-ms-any-link {
 
 
 #logo .cloud {
-	left: 50%;
-	margin-left: -409.5px;
-	top: 45%;
-	margin-top: -203.5px;
+	
+	top: 40%;
+	margin-top:-12%;
 	z-index: 1000
 }
 
