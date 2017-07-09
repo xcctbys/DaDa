@@ -1756,6 +1756,82 @@ a:-ms-any-link {
 	
 }
 
+
+#poster4 .fp-tableCell .round {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	margin-top: -250px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+#poster4 .fp-tableCell .round .roundin {
+	width: 100%;
+	height: 100%;
+	-moz-transform: scale3d(0, 0, 0);
+	-ms-transform: scale3d(0, 0, 0);
+	-webkit-transform: scale3d(0, 0, 0);
+	transform: scale3d(0, 0, 0);
+	-moz-transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-o-transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-webkit-transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)
+}
+
+#poster3  .round .roundin img {
+	position: absolute;
+	top: 50%;
+	left: 50%
+}
+
+
+
+/*
+#poster3  .round .roundin img:nth-child(1) {
+	margin-top:0px;
+	margin-left:0px;
+	-moz-animation: evenrotate 15s linear 0s infinite;
+	-webkit-animation: evenrotate 15s linear 0s infinite;
+	animation: evenrotate 15s linear 0s infinite
+}
+*/
+
+
+@-ms-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+
+
+
+#poster3  .round .roundin img:nth-child(1) {
+	margin-top:0px;
+	margin-left:0px;
+	-moz-animation: rotation 15s linear 0s infinite;
+	-webkit-animation: rotation 15s linear 0s infinite;
+	animation: rotation 15s linear 0s infinite
+}
+
+
+
+
+
+
 #poster3  .timeline {
 	top:15%;
 	width: 40%;
