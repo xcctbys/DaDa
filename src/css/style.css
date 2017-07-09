@@ -579,7 +579,7 @@ a:-ms-any-link {
 	margin: 0;
 	top: 0;
 	position: absolute;
-	z-index: 10000
+	z-index: 100
 }
 
 #logo .text {
@@ -601,7 +601,7 @@ a:-ms-any-link {
 
 #logo .text p {
 	
-	: 0
+	margin: 0
 }
 
 #logo .text2 p {
@@ -1757,10 +1757,42 @@ a:-ms-any-link {
 }
 
 #poster3  .timeline {
-	top:40%;
-	z-index: -1
+	top:15%;
+	width: 40%;
+	height: 60%;
+	
 	
 }
+
+#poster3  .schedule1 {
+	left: 30%;
+	top: 15%
+}
+
+#poster3  .schedule2 {
+	left: 80%;
+	top: 25%
+}
+
+#poster3  .schedule3 {
+	left: 90%;
+	top: 60%
+}
+
+
+#poster3  .schedule4 {
+	left: 50%;
+	top: 98%
+}
+
+
+#poster3 .text p {
+	margin: 0;
+	color: #fefefe
+
+}
+
+
 
 #poster3  .timeline1 {
 	margin-left: 10%;
