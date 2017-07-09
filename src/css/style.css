@@ -1056,10 +1056,8 @@ a:-ms-any-link {
 	height: 600px;
 	position: absolute;
 	font-size: 30px;
-	top: 10%;
 	left: 20%;
-	margin-top: -50px
-	
+	margin-top: -50px;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
@@ -1077,6 +1075,98 @@ a:-ms-any-link {
 	margin-top: 50px
 	
 }
+
+
+#poster1 .fp-tableCell .title2 {
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	margin-top: -15%;	
+	left: 20%;
+	font-size: 30px;
+	color:#FFF000;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+#poster1 .fp-tableCell .title3 {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 20%;
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+#poster1 .fp-tableCell .title31 {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 20%;
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+#poster1 .fp-tableCell .title32 {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 30%;
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+#poster1 .fp-tableCell .title33 {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 34%;
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+#poster1 .fp-tableCell .title34 {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 35%;
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
 
 #poster1 .fp-tableCell .assay5 {
 	position: absolute;
@@ -1844,6 +1934,11 @@ to {-webkit-transform: rotate(360deg);}
 	left: 30%;
 	top: 15%
 }
+
+#poster3  .schedule1 p:hover{
+	 font-size:80px;
+}
+
 
 #poster3  .schedule2 {
 	left: 80%;
