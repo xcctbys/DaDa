@@ -579,7 +579,7 @@ a:-ms-any-link {
 	margin: 0;
 	top: 0;
 	position: absolute;
-	z-index: 10000
+	z-index: 100
 }
 
 #logo .text {
@@ -1760,7 +1760,7 @@ a:-ms-any-link {
 	top:15%;
 	width: 40%;
 	height: 60%;
-	z-index: -1
+	
 	
 }
 

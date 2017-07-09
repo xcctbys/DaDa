@@ -26,14 +26,14 @@
 			goUrl = 2;
 		}
 		if (goUrl == 0 || goUrl == 2) {//PC端、iPad
-			var now="http://www.caadria2018.com";
-			if(window.location.href.indexOf("caadria2018.html")>=0){
+			var now="http://www.caadria2018.org";
+			if(window.location.href.indexOf("caadria2018.org")>=0){
 				window.location=now;
-			}
+			} 
 		}
-		if(goUrl == 1){//移动端0 || goUrl == 2) {//PC端、iPad
-			var now="http://www.caadria2018.com";
-			if(window.location.href.indexOf("caadria2018.html")<0){
+		if(goUrl == 1){//手机移动端
+			var now="http://www.caadria2018.org";
+			if(window.location.href.indexOf("caadria2018.org")<0){
 					window.location=now;
 			}
 		}
@@ -61,7 +61,7 @@
 </style></head>
     <body class="fp-viewing-b-0" style="overflow: hidden; height: 100%;">
         <!-- nav -->
-        <div class="nav active" id="nav">
+        <div class="nav " id="nav">
 
 
         	<!-- top banner navigations here -->
@@ -178,7 +178,9 @@
                 </a>
 
 
-                <div class="cloud layer" data-depth="0.05" style="width:900px; height:900px; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+<!--                <div class="cloud layer" data-depth="0.05" style="width:900px; height:900px; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">-->
+                <div class="cloud layer" data-depth="0.05" style="width:60%; height:60%; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: flat; backface-visibility: hidden;">
+
                 
                     <img src="../img/caadria.png" alt="cloud"  style="width:100%;" >
                     </br>
@@ -312,21 +314,25 @@
                   <img id="schedule4" src="../img/schedule4.jpg" alt="" width="30%" height="auto" style=" position: absolute;right: 20%;top:20%;z-index: 100; display:none;" > 
                    
                     <div> 
-                       	<img src="../img/schedulecube.jpg" alt="cloud" style="width:60%;top:50%;left:10%;z-index: -100" >                  
 
+                       	<img src="../img/schedulecube.jpg" alt="cloud"  style="position:absolute;width:60%;top:10%;left:1%;z-index: -1" >                  
+
+                        <!-- <div class= "timeline" data-depth="0.05" style=" text-align: center;" > -->
                         <div class= "timeline" data-depth="0.05" style=" text-align: center; position: absolute; display: block; transform: translate3d(4.51909px, 2.88482px, 0px); transform-style: preserve-3d; backface-visibility: hidden; " >
 <!--                             <img src="../img/timeline1.png" alt="" style="margin: 0 auto; width: 70%">
  -->                  
-						     <a class="schedule1" data-depth="0.10" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+						     <a  class="schedule1" data-depth="0.10" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden; z-index: 1000;  ">
                 				<div class="text">
-                    			 <p style="font-size:25px" onMouseOut="hide_img('schedule1')" onMouseOver="show_img('schedule1')">schedule1</p>
+                    			 <p id="sp1" style="font-size:25px">schedule1</p>
+                                 <!-- <p style="font-size:25px" onMouseOut="hide_img('schedule1')" onMouseOver="show_img('schedule1')">schedule1</p> -->
                 				</div>
                 			</a>   
                      
                      
                      	     <a  class="schedule2" data-depth="0.20" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                 				<div class="text">
-               					<p style="font-size:25px" onMouseOut="hide_img('schedule2')" onMouseOver="show_img('schedule2')">schedule2</p>                				
+               					<p id="sp2" style="font-size:25px">schedule2</p>    
+                                <!-- <p style="font-size:25px" onMouseOut="hide_img('schedule2')" onMouseOver="show_img('schedule2')">schedule2</p>                				 -->
                					</div>
                 			</a>  
                      
@@ -334,7 +340,8 @@
                      
                      	     <a  class="schedule3" data-depth="0.30" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                 				<div class="text">
-                    			<p style="font-size:25px" onMouseOut="hide_img('schedule3')" onMouseOver="show_img('schedule3')">schedule3</p>
+                    			<p id="sp3" style="font-size:25px">schedule3</p>
+                                <!-- <p style="font-size:25px" onMouseOut="hide_img('schedule3')" onMouseOver="show_img('schedule3')">schedule3</p> -->
                 				</div>
                 			</a>  
                      
@@ -342,9 +349,14 @@
                      
                      	     <a class="schedule4" data-depth="0.60" style="position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
                 				<div class="text">
-                    			<p style="font-size:25px" onMouseOut="hide_img('schedule4')" onMouseOver="show_img('schedule4')">schedule4</p>
+                    			<p id="sp4" style="font-size:25px">schedule4</p>
+                                <!-- <p id="pppp4" style="font-size:25px" onMouseOut="hide_img('schedule4')" onMouseOver="show_img('schedule4')">schedule4</p> -->
                 				</div>
                 			</a>  
+
+                        
+                                
+                                </div>
                       
                       
                        
@@ -365,8 +377,8 @@
 
                 </div>
                 
-                </div>
-                
+<!--                 </div>
+ -->                
                 
                
         
