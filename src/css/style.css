@@ -1021,60 +1021,67 @@ a:-ms-any-link {
 	transform: scale3d(0.9, 0.9, 1);
 	position: absolute;
 	top: 20%;
-	left: 20%;
-	margin-top: 10px;
-	margin-left: 40px;
-	height: 600px;
+	left: 15%;
+	margin-left: 10px;
+	height: auto;
 	width: 900px;
 	position: absolute;
-	font-size: 70px;
+	font-size: 40px;
+	color: #FFF100;
 	right: 20%;
-	margin-top: -50px
+	
+}
+
+#poster1 .fp-tableCell .assay1 {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 20%;
+	transform: scale3d(0.8, 0.8, 1)
 }
 
 
 #poster1 .fp-tableCell .assay2 {
 	position: absolute;
-	width: 1000px;
-	height: 600px;
-	margin-top: -15%;	
-	left: 20%;
-	font-size: 30px;
-	color:#FFF000;
-	
-	
+	width: 750px;
+	font-size: 26px;
+	text-align:justify;
+	text-justify:newspaper;
+	top: 10%;
+	right: 13%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
 	transform: scale3d(0.8, 0.8, 1)
 }
+
+
 
 #poster1 .fp-tableCell .assay3 {
-	position: absolute;
-	width: 500px;
-	height: 600px;
-	position: absolute;
-	font-size: 30px;
-	left: 20%;
-	margin-top: -50px;
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
-}
 
-#poster1 .fp-tableCell .assay4 {
-	text-align:justify;
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
-	font-size: 19px;
-	top: 48%;
-	left: 50%;
-	margin-top: 30px
+	font-size: 24px;
+	top: 32%;
+	left: 15%;
+	margin-top: 0px
+
 	
 }
+
+#poster1 .fp-tableCell .assay4 {
+	text-align:justify;
+	width: 750px;
+	height:auto;
+	font-size: 26px;
+	top: 10%;
+	right: 10%;
+	text-align:justify;
+	text-justify:newspaper;
+	transform: scale3d(0.8, 0.8, 1)
+}
+
 
 
 #poster1 .fp-tableCell .linkcaad {
@@ -1161,77 +1168,15 @@ a:-ms-any-link {
 */
 }
 
-#poster1 .fp-tableCell .t2 {
-	position: absolute;
-	width: 16.3%;
-/*	height: 600px;*/
-	font-size: 30px;
-	color:#FFF000;
-	left: 49%;
-	background: #C0C0C0;
-
-
-
-/*	margin-top: -50px;*/
-/*
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
-*/
-}
-
-#poster1 .fp-tableCell .t3 {
-	position: absolute;
-	width: 16.3%;
-/*	height: 600px;*/
-	font-size: 30px;
-	color:#FFF000;
-	left:62%;
-	background: #C0C0C0;
-
-
-
-
-/*
-	margin-top: -50px;
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
-*/
-}
-
-
-
-
-#poster1 .fp-tableCell .t4 {
-	position: absolute;
-	width: 16.3%;
-/*	height: 600px;*/
-	position: absolute;
-	font-size: 30px;
-	color:#FFF000;
-	left: 75%;
-	background: #C0C0C0;
-
-/*
-	margin-top: -50px;
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
-*/
-}
-
 
 #poster1 .fp-tableCell .assay5 {
+
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
 	font-size: 20px;
-	top: 30%;
+	top: 40%;
 	left: 22%;
 	margin-top: 50px
 	
@@ -1260,8 +1205,7 @@ a:-ms-any-link {
 	font-size: 50px;
 	font-weight: normal;
 	color: #FFF100;
-	margin-bottom: 50px;
-	margin-left: -100px;
+	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
 	-o-transition: all 1.5s linear .5s;
@@ -1430,6 +1374,84 @@ a:-ms-any-link {
 #poster4 .fp-tableCell {
 	position: relative
 }
+
+
+#poster4 .fp-tableCell {
+	position: relative
+}
+
+#poster4 .fp-tableCell .aside {
+	width: 680px;
+	height: 484px;
+	position: absolute;
+	top: 50%;
+	margin-top: -242px;
+	left: 0;
+	-moz-transform: scale3d(0.7, 0.7, 1);
+	-ms-transform: scale3d(0.7, 0.7, 1);
+	-webkit-transform: scale3d(0.7, 0.7, 1);
+	transform: scale3d(0.7, 0.7, 1)
+}
+#poster4 .fp-tableCell .tabs{
+margin-left: 50%;
+margin-top: 30%
+
+}
+
+
+
+#poster4 .fp-tableCell .t2 {
+	position: absolute;
+	width: 16.3%;
+
+	font-size: 30px;
+	color:#FFF000;
+	top: 40%;
+	left: 30%;
+	background: #C0C0C0;
+
+}
+
+#poster4 .fp-tableCell .t3 {
+	position: absolute;
+	width: 16.3%;
+	top: 40%;
+	font-size: 30px;
+	color:#FFF000;
+	left: 45%;
+	background: #C0C0C0;
+
+}
+
+
+
+
+#poster1 .fp-tableCell .t4 {
+	position: absolute;
+	width: 16.3%;
+	top: 40%;
+	left: 60%;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	
+	background: #C0C0C0;
+
+}
+
+
+
+#poster4 .fp-tableCell .assay1 {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 20%;
+	color: #FFF100;
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+
+
 
 
 
