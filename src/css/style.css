@@ -1487,11 +1487,11 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	
 	margin-top: -15%;
 	margin-left: -35%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -1499,10 +1499,10 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	margin-top: -15%;
 	margin-left:-30%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -1510,10 +1510,10 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	margin-top: -15%;
 	margin-left: -25%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -1521,11 +1521,11 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	
 	margin-top: -10%;
 	margin-left: -35%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -1533,20 +1533,20 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	margin-top: -10%;
 	margin-left: -30%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 #poster4 .fp-tableCell .assay11 {
 	position: absolute;
 	width: 900px;
 	height: 500px;
-	background-color: #F39700;
+/*	background-color: #F39700;*/
 	margin-top: -10%;
 	margin-left: -25%;
-	color: #FFF100;
+	color: #FFFFFF;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
