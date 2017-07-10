@@ -1021,69 +1021,60 @@ a:-ms-any-link {
 	transform: scale3d(0.9, 0.9, 1);
 	position: absolute;
 	top: 20%;
-	left: 20%;
-	margin-top: 10px;
-	margin-left: 40px;
-	height: 600px;
+	left: 18%;
+	margin-left: 10px;
+	height: auto;
 	width: 900px;
 	position: absolute;
-	font-size: 70px;
+	font-size: 40px;
+	color: #FFF100;
 	right: 20%;
-	margin-top: -50px
+	
+}
+
+#poster1 .fp-tableCell .assay1 {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 20%;
+	transform: scale3d(0.8, 0.8, 1)
 }
 
 
 #poster1 .fp-tableCell .assay2 {
 	position: absolute;
-	width: 1000px;
-	height: 600px;
-	margin-top: -15%;	
-	left: 20%;
-	font-size: 30px;
-	color:#FFF000;
-	
-	
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
+	width: 750px;
+	height:auto;
+	font-size: 26px;
+	top: 10%;
+	right: 10%;
+	text-align:justify;
+	text-justify:newspaper;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
+
+
 #poster1 .fp-tableCell .assay3 {
 	position: absolute;
-	width: 500px;
+	width: 1000px;
 	height: 600px;
-	position: absolute;
-	font-size: 30px;
-	top: 10%;
-	left: 20%;
-	margin-top: -50px
+	color: #FFF;
+	font-size: 24px;
+	top: 32%;
+	left: 18%;
+	margin-top: 0px
 	
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
 }
+
+
 
 #poster1 .fp-tableCell .assay4 {
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
-	font-size: 25px;
-	top: 40%;
-	left: 22%;
-	margin-top: 50px
-	
-}
-
-#poster1 .fp-tableCell .assay5 {
-	position: absolute;
-	width: 1000px;
-	height: 600px;
-	color: #FFF;
 	font-size: 20px;
-	top: 30%;
+	top: 40%;
 	left: 22%;
 	margin-top: 50px
 	
@@ -1112,8 +1103,7 @@ a:-ms-any-link {
 	font-size: 50px;
 	font-weight: normal;
 	color: #FFF100;
-	margin-bottom: 50px;
-	margin-left: -100px;
+	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
 	-o-transition: all 1.5s linear .5s;
@@ -1282,6 +1272,37 @@ a:-ms-any-link {
 #poster4 .fp-tableCell {
 	position: relative
 }
+
+
+#poster1 .fp-tableCell {
+	position: relative
+}
+
+#poster1 .fp-tableCell .aside {
+	width: 680px;
+	height: 484px;
+	position: absolute;
+	top: 50%;
+	margin-top: -242px;
+	left: 0;
+	-moz-transform: scale3d(0.7, 0.7, 1);
+	-ms-transform: scale3d(0.7, 0.7, 1);
+	-webkit-transform: scale3d(0.7, 0.7, 1);
+	transform: scale3d(0.7, 0.7, 1)
+}
+
+
+#poster4 .fp-tableCell .assay1 {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 20%;
+	color: #FFF100;
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+
+
 
 
 
