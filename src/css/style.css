@@ -1025,7 +1025,7 @@ a:-ms-any-link {
 	transform: scale3d(0.9, 0.9, 1);
 	position: absolute;
 	top: 20%;
-	left: 18%;
+	left: 15%;
 	margin-left: 10px;
 	height: auto;
 	width: 900px;
@@ -1047,9 +1047,43 @@ a:-ms-any-link {
 #poster1 .fp-tableCell .assay2 {
 	position: absolute;
 	width: 750px;
+	font-size: 26px;
+
+
+	text-align:justify;
+	text-justify:newspaper;
+	top: 10%;
+	right: 13%;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+
+#poster1 .fp-tableCell .assay3 {
+
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	color: #FFF;
+	font-size: 24px;
+
+	top: 40%;
+	left: 18%;
+
+	margin-top: 0px
+
+	
+}
+
+#poster1 .fp-tableCell .assay4 {
+	text-align:justify;
+	width: 750px;
 	height:auto;
 	font-size: 26px;
-	top: 12%;
+	top: 10%;
 	right: 10%;
 	text-align:justify;
 	text-justify:newspaper;
@@ -1058,21 +1092,93 @@ a:-ms-any-link {
 
 
 
-#poster1 .fp-tableCell .assay3 {
+#poster1 .fp-tableCell .linkcaad {
+	text-align:justify;
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
-	font-size: 24px;
-	top: 40%;
-	left: 18%;
-	margin-top: 0px
+	font-size: 19px;
+	top: 50%;
+	left: 17%;
+	margin-top: 30px
 	
 }
 
 
 
-#poster1 .fp-tableCell .assay4 {
+
+
+
+#poster1 .fp-tableCell .title2 {
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	margin-top: -15%;	
+	left: 10%;
+	top:60%;
+	font-size: 30px;
+	color:#FFF000;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+#poster1 .fp-tableCell .title3 {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 15%;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	opacity:0.7;
+
+}
+
+
+
+#poster1 .fp-tableCell .title3:hover{
+		opacity:1;
+
+}
+
+#poster1 .fp-tableCell .title3 p{
+    margin: 2%;
+}
+
+
+
+#poster1 .fp-tableCell .t1 {
+	position: absolute;
+	width: 12.5%;
+/*	height: 600px;*/
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 16%;
+	background: #C0C0C0;
+	opacity:1;
+
+
+/*
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+*/
+}
+
+
+#poster1 .fp-tableCell .assay5 {
+
 	position: absolute;
 	width: 1000px;
 	height: 600px;
@@ -1278,11 +1384,11 @@ a:-ms-any-link {
 }
 
 
-#poster1 .fp-tableCell {
+#poster4 .fp-tableCell {
 	position: relative
 }
 
-#poster1 .fp-tableCell .aside {
+#poster4 .fp-tableCell .aside {
 	width: 680px;
 	height: 484px;
 	position: absolute;
@@ -1294,6 +1400,53 @@ a:-ms-any-link {
 	-webkit-transform: scale3d(0.7, 0.7, 1);
 	transform: scale3d(0.7, 0.7, 1)
 }
+#poster4 .fp-tableCell .tabs{
+margin-left: 50%;
+margin-top: 30%
+
+}
+
+
+
+#poster4 .fp-tableCell .t2 {
+	position: absolute;
+	width: 16.3%;
+
+	font-size: 30px;
+	color:#FFF000;
+	top: 40%;
+	left: 30%;
+	background: #C0C0C0;
+
+}
+
+#poster4 .fp-tableCell .t3 {
+	position: absolute;
+	width: 16.3%;
+	top: 40%;
+	font-size: 30px;
+	color:#FFF000;
+	left: 45%;
+	background: #C0C0C0;
+
+}
+
+
+
+
+#poster1 .fp-tableCell .t4 {
+	position: absolute;
+	width: 16.3%;
+	top: 40%;
+	left: 60%;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	
+	background: #C0C0C0;
+
+}
+
 
 
 #poster4 .fp-tableCell .title3 {
@@ -2053,6 +2206,11 @@ to {-webkit-transform: rotate(360deg);}
 	left: 10%;
 	top: 25%;
 }
+
+#poster3  .schedule1 p:hover{
+	 font-size:80px;
+}
+
 
 #poster3  .schedule2 {
 	left: 10%;
