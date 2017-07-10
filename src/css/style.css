@@ -650,7 +650,7 @@ a:-ms-any-link {
 #logo .callp {
 
 	right: 38%;
-	top: 15%
+	top: 13%
 }
 
 /*d*/
@@ -1046,13 +1046,13 @@ a:-ms-any-link {
 
 #poster1 .fp-tableCell .assay2 {
 	position: absolute;
-	width: 750px;
-	font-size: 26px;
+	width: 600px;
+	font-size: 20px;
 
 
 	text-align:justify;
 	text-justify:newspaper;
-	top: 10%;
+	top: 30%;
 	right: 13%;
 	/*-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
@@ -1487,7 +1487,7 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	
 	margin-top: -15%;
 	margin-left: -35%;
@@ -1499,7 +1499,7 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	margin-top: -15%;
 	margin-left:-30%;
 	color: #FFF100;
@@ -1510,7 +1510,7 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	margin-top: -15%;
 	margin-left: -25%;
 	color: #FFF100;
@@ -1521,7 +1521,7 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	
 	margin-top: -10%;
 	margin-left: -35%;
@@ -1533,7 +1533,7 @@ margin-top: 30%
 	position: absolute;
 	width: 750px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	margin-top: -10%;
 	margin-left: -30%;
 	color: #FFF100;
@@ -1543,7 +1543,7 @@ margin-top: 30%
 	position: absolute;
 	width: 900px;
 	height: 500px;
-	background-color: #F39700;
+	background-color: #C0C0C0;
 	margin-top: -10%;
 	margin-left: -25%;
 	color: #FFF100;
