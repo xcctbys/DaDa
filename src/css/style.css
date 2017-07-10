@@ -748,10 +748,9 @@ a:-ms-any-link {
 
 
 #logo .cloud {
-	left: 50%;
-	margin-left: -409.5px;
-	top: 45%;
-	margin-top: -203.5px;
+	
+	top: 40%;
+	margin-top:-12%;
 	z-index: 1000
 }
 
@@ -1065,16 +1064,35 @@ a:-ms-any-link {
 }
 
 #poster1 .fp-tableCell .assay4 {
+	text-align:justify;
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
-	font-size: 25px;
-	top: 40%;
-	left: 22%;
-	margin-top: 50px
+	font-size: 19px;
+	top: 48%;
+	left: 50%;
+	margin-top: 30px
 	
 }
+
+
+#poster1 .fp-tableCell .linkcaad {
+	text-align:justify;
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	color: #FFF;
+	font-size: 19px;
+	top: 50%;
+	left: 17%;
+	margin-top: 30px
+	
+}
+
+
+
+
 
 
 #poster1 .fp-tableCell .title2 {
@@ -1082,7 +1100,8 @@ a:-ms-any-link {
 	width: 1000px;
 	height: 600px;
 	margin-top: -15%;	
-	left: 20%;
+	left: 10%;
+	top:60%;
 	font-size: 30px;
 	color:#FFF000;
 	-moz-transform: scale3d(0.8, 0.8, 1);
@@ -1094,77 +1113,115 @@ a:-ms-any-link {
 
 #poster1 .fp-tableCell .title3 {
 	position: absolute;
-	width: 500px;
-	height: 600px;
+	width: 100%;
+	height:40px;
 	position: absolute;
 	font-size: 30px;
 	color:#FFF000;
-	left: 20%;
-	margin-top: -50px;
+	left: 15%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
+	transform: scale3d(0.8, 0.8, 1);
+	opacity:0.7;
+
 }
 
-#poster1 .fp-tableCell .title31 {
-	position: absolute;
-	width: 500px;
-	height: 600px;
-	position: absolute;
-	font-size: 30px;
-	color:#FFF000;
-	left: 20%;
-	margin-top: -50px;
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
+
+
+#poster1 .fp-tableCell .title3:hover{
+		opacity:1;
+
 }
 
-#poster1 .fp-tableCell .title32 {
-	position: absolute;
-	width: 500px;
-	height: 600px;
-	position: absolute;
-	font-size: 30px;
-	color:#FFF000;
-	left: 30%;
-	margin-top: -50px;
-	-moz-transform: scale3d(0.8, 0.8, 1);
-	-ms-transform: scale3d(0.8, 0.8, 1);
-	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
+#poster1 .fp-tableCell .title3 p{
+    margin: 2%;
 }
 
-#poster1 .fp-tableCell .title33 {
+
+
+#poster1 .fp-tableCell .t1 {
 	position: absolute;
-	width: 500px;
-	height: 600px;
+	width: 12.5%;
+/*	height: 600px;*/
 	position: absolute;
 	font-size: 30px;
 	color:#FFF000;
-	left: 34%;
+	left: 16%;
+	background: #C0C0C0;
+	opacity:1;
+
+
+/*
 	margin-top: -50px;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
 	transform: scale3d(0.8, 0.8, 1)
+*/
 }
 
-#poster1 .fp-tableCell .title34 {
+#poster1 .fp-tableCell .t2 {
 	position: absolute;
-	width: 500px;
-	height: 600px;
-	position: absolute;
+	width: 16.3%;
+/*	height: 600px;*/
 	font-size: 30px;
 	color:#FFF000;
-	left: 35%;
+	left: 49%;
+	background: #C0C0C0;
+
+
+
+/*	margin-top: -50px;*/
+/*
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+*/
+}
+
+#poster1 .fp-tableCell .t3 {
+	position: absolute;
+	width: 16.3%;
+/*	height: 600px;*/
+	font-size: 30px;
+	color:#FFF000;
+	left:62%;
+	background: #C0C0C0;
+
+
+
+
+/*
 	margin-top: -50px;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
 	transform: scale3d(0.8, 0.8, 1)
+*/
+}
+
+
+
+
+#poster1 .fp-tableCell .t4 {
+	position: absolute;
+	width: 16.3%;
+/*	height: 600px;*/
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 75%;
+	background: #C0C0C0;
+
+/*
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+*/
 }
 
 
@@ -1873,11 +1930,9 @@ a:-ms-any-link {
 	transition: all 2s cubic-bezier(0.175, 0.885, 0.320, 1.275)
 }
 
-#poster3  .round .roundin img {
+/*#poster3  .round .roundin img {
 	position: absolute;
-	top: 50%;
-	left: 50%
-}
+	}*/
 
 
 
@@ -1931,8 +1986,8 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #poster3  .schedule1 {
-	left: 30%;
-	top: 15%
+	left: 10%;
+	top: 25%;
 }
 
 #poster3  .schedule1 p:hover{
@@ -1941,19 +1996,19 @@ to {-webkit-transform: rotate(360deg);}
 
 
 #poster3  .schedule2 {
-	left: 80%;
-	top: 25%
+	left: 10%;
+	top: 40%
 }
 
 #poster3  .schedule3 {
-	left: 90%;
-	top: 60%
+	left: 10%;
+	top: 55%
 }
 
 
 #poster3  .schedule4 {
-	left: 50%;
-	top: 98%
+	left: 10%;
+	top: 70%
 }
 
 
@@ -1968,7 +2023,7 @@ to {-webkit-transform: rotate(360deg);}
 #poster3  .timeline1 {
 	margin-left: 10%;
 	margin-top: 5%;
-	height: 20%;
+	height: 80%;
 	width: auto;
 	text-align: center;
 	width: 10%;
