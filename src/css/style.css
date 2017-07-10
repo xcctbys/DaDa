@@ -1054,24 +1054,22 @@ a:-ms-any-link {
 	text-justify:newspaper;
 	top: 10%;
 	right: 13%;
-	-moz-transform: scale3d(0.8, 0.8, 1);
+	/*-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
-	transform: scale3d(0.8, 0.8, 1)
+	transform: scale3d(0.8, 0.8, 1)*/
 }
 
 
 
 #poster1 .fp-tableCell .assay3 {
-
 	position: absolute;
 	width: 1000px;
 	height: 600px;
 	color: #FFF;
 	font-size: 24px;
-
 	top: 40%;
-	left: 18%;
+	left: 12%;
 
 	margin-top: 0px
 
@@ -1491,8 +1489,8 @@ margin-top: 30%
 	height: 500px;
 	background-color: #F39700;
 	
-	margin-top: 1%;
-	margin-left: 15%;
+	margin-top: -15%;
+	margin-left: -35%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
@@ -1502,8 +1500,8 @@ margin-top: 30%
 	width: 750px;
 	height: 500px;
 	background-color: #F39700;
-	margin-top: 1%;
-	margin-left: 25%;
+	margin-top: -15%;
+	margin-left:-30%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
@@ -1513,8 +1511,8 @@ margin-top: 30%
 	width: 750px;
 	height: 500px;
 	background-color: #F39700;
-	margin-top: 1%;
-	margin-left: 35%;
+	margin-top: -15%;
+	margin-left: -25%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
@@ -1525,8 +1523,8 @@ margin-top: 30%
 	height: 500px;
 	background-color: #F39700;
 	
-	margin-top: 1%;
-	margin-left: 15%;
+	margin-top: -10%;
+	margin-left: -35%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
@@ -1536,8 +1534,8 @@ margin-top: 30%
 	width: 750px;
 	height: 500px;
 	background-color: #F39700;
-	margin-top: 1%;
-	margin-left: 25%;
+	margin-top: -10%;
+	margin-left: -30%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
@@ -1546,8 +1544,8 @@ margin-top: 30%
 	width: 900px;
 	height: 500px;
 	background-color: #F39700;
-	margin-top: 1%;
-	margin-left: 30%;
+	margin-top: -10%;
+	margin-left: -25%;
 	color: #FFF100;
 	transform: scale3d(0.8, 0.8, 1)
 }
