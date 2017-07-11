@@ -1046,7 +1046,8 @@ a:-ms-any-link {
 
 #poster1 .fp-tableCell .assay2 {
 	position: absolute;
-	width: 600px;
+	width: 35%;
+	height: auto;
 	font-size: 20px;
 
 
@@ -1064,11 +1065,11 @@ a:-ms-any-link {
 
 #poster1 .fp-tableCell .assay3 {
 	position: absolute;
-	width: 1000px;
-	height: 600px;
+	width: 30%;
+	height: auto;
 	color: #FFF;
 	font-size: 24px;
-	top: 40%;
+	top: 30%;
 	left: 12%;
 
 	margin-top: 0px
@@ -1563,7 +1564,7 @@ margin-top: 30%
 	position: absolute;
 	width: 16.3%;
 	text-align: center;
-	height: 100px;
+	height: 8%;
 
 	font-size: 30px;
 	color:#FFF000;
@@ -1577,7 +1578,7 @@ margin-top: 30%
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
-	height: 100px;
+	height: 8%;
 	top: 32%;
 	font-size: 30px;
 	color:#FFF000;
@@ -1593,7 +1594,7 @@ margin-top: 30%
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
-	height: 100px;
+	height: 8%;
 	top: 32%;
 	left: 60%;
 	position: absolute;
@@ -1610,7 +1611,7 @@ margin-top: 30%
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
-	height: 150px;
+	height: 12%;
 	top: 40%;
 	left: 20%;
 	position: absolute;
@@ -1625,7 +1626,7 @@ margin-top: 30%
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
-	height: 150px;
+	height: 12%;
 	top: 40%;
 	font-size: 30px;
 	color:#FFF000;
@@ -1638,7 +1639,7 @@ margin-top: 30%
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
-	height: 150px;
+	height: 12%;
 	top: 40%;
 	left: 60%;
 	position: absolute;
