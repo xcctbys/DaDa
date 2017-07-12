@@ -17,25 +17,25 @@
 		var ipadAgents = [ 'iPad' ];
 		var goUrl = 0;
 		for (var i = 0; i < mobileAgents.length; i++) {
-			if (sUserAgent.indexOf(mobileAgents[i]) > -1) {
-				goUrl = 1;
-				break;
-			}
-		}
-		if (sUserAgent.indexOf(ipadAgents) > -1) {
-			goUrl = 2;
-		}
-		if (goUrl == 0 || goUrl == 2) {//PC端、iPad
-			var now="http://www.caadria2018.org";
-			if(window.location.href.indexOf("caadria2018.org")>=0){
-				window.location=now;
-			} 
-		}
-		if(goUrl == 1){//手机移动端
-			var now="http://www.caadria2018.org";
-			if(window.location.href.indexOf("caadria2018.org")<0){
-					window.location=now;
-			}
+		// 	if (sUserAgent.indexOf(mobileAgents[i]) > -1) {
+		// 		goUrl = 1;
+		// 		break;
+		// 	}
+		// }
+		// if (sUserAgent.indexOf(ipadAgents) > -1) {
+		// 	goUrl = 2;
+		// }
+		// if (goUrl == 0 || goUrl == 2) {//PC端、iPad
+		// 	var now="http://www.caadria2018.org";
+		// 	if(window.location.href.indexOf("caadria2018.org")>=0){
+		// 		window.location=now;
+		// 	} 
+		// }
+		// if(goUrl == 1){//手机移动端
+		// 	var now="http://www.caadria2018.org";
+		// 	if(window.location.href.indexOf("caadria2018.org")<0){
+		// 			window.location=now;
+		// 	}
 		}
         </script>
         
