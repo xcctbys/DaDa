@@ -181,7 +181,7 @@ a:-ms-any-link {
 	width: 167px;
 	height: 73px;
 	margin-left: -83.5px;
-	background: url(../img/logo.png) top center no-repeat;
+	
 	padding: 0;
 	margin-top: 8px
 }
@@ -194,7 +194,7 @@ a:-ms-any-link {
 	width: 113px;
 	color: #fefefe;
 	font-size: 14px;
-	background: url(../img/telbg.png) right center no-repeat
+	
 }
 
 .nav #telside div {
@@ -208,6 +208,14 @@ a:-ms-any-link {
 }
 
 .nav #svg {
+	width: 100%;
+	height: 61px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1
+}
+.nav #svg2 {
 	width: 100%;
 	height: 61px;
 	position: absolute;
@@ -293,7 +301,7 @@ a:-ms-any-link {
 }
 
 #poster .fp-slidesNav li a {
-	background: url(../img/posterno.png) left top no-repeat
+	
 }
 
 #poster .fp-slidesNav li a span {
@@ -301,7 +309,7 @@ a:-ms-any-link {
 }
 
 #poster .fp-slidesNav li a.active {
-	background: url(../img/poster.png) left top no-repeat
+	
 }
 
 
@@ -967,6 +975,447 @@ a:-ms-any-link {
 }
 
 
+/*poster0*/
+
+
+#poster0 .fp-controlArrow {
+	border: none;
+	width: 41px;
+	height: 41px;
+	background: url(../img/arrow.png)
+}
+
+#poster0 .fp-next {
+	background-position: 41px 0;
+	right: 5%
+}
+
+#poster0 .fp-next:hover {
+	background-position: -41px 0
+}
+
+#poster0 .fp-prev {
+	left: 5%;
+	background-position: 82px 0
+}
+
+#poster0 .fp-prev:hover {
+	background-position: 0px 0
+}
+
+#poster0 .fp-tableCell {
+	position: relative
+}
+
+#poster0 .fp-tableCell .aside {
+	width: 680px;
+	height: 484px;
+	position: absolute;
+	top: 50%;
+	margin-top: -242px;
+	left: 0;
+	-moz-transform: scale3d(0.7, 0.7, 1);
+	-ms-transform: scale3d(0.7, 0.7, 1);
+	-webkit-transform: scale3d(0.7, 0.7, 1);
+	transform: scale3d(0.7, 0.7, 1)
+}
+
+#poster0 .fp-tableCell .aside img {
+	position: absolute;
+	z-index: 100
+}
+
+#poster0 .fp-tableCell .aside img:nth-child(1) {
+	left: 0;
+	top: 10%
+}
+
+#poster0 .fp-tableCell .aside img:nth-child(2) {
+	opacity: 0;
+	top: 12%;
+	right: 0;
+	-moz-transition: all 1s ease .8s;
+	-o-transition: all 1s ease .8s;
+	-webkit-transition: all 1s ease;
+	-webkit-transition-delay: .8s;
+	transition: all 1s ease .8s
+}
+
+#poster0 .fp-tableCell .aside img:nth-child(3) {
+	left: 27%;
+	opacity: 0;
+	-moz-transition: all 1s ease .5s;
+	-o-transition: all 1s ease .5s;
+	-webkit-transition: all 1s ease;
+	-webkit-transition-delay: .5s;
+	transition: all 1s ease .5s
+}
+
+
+#poster0 .fp-tableCell .assay {
+	-moz-transform: scale3d(0.9, 0.9, 1);
+	-ms-transform: scale3d(0.9, 0.9, 1);
+	-webkit-transform: scale3d(0.9, 0.9, 1);
+	transform: scale3d(0.9, 0.9, 1);
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	margin-left: 10px;
+	height: auto;
+	width: 900px;
+	position: absolute;
+	font-size: 40px;
+	color: #FFF100;
+	right: 20%;
+	
+}
+
+#poster0 .fp-tableCell .assay1 {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 20%;
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+#poster0 .fp-tableCell .assay2 {
+	position: absolute;
+	width: 35%;
+	height: auto;
+	font-size: 20px;
+
+
+	text-align:justify;
+	text-justify:newspaper;
+	top: 30%;
+	right: 13%;
+	/*-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)*/
+}
+
+
+
+#poster0 .fp-tableCell .assay3 {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	color: #FFF;
+	font-size: 24px;
+	top: 30%;
+	left: 12%;
+
+	margin-top: 0px
+
+	
+}
+
+#poster0 .fp-tableCell .assay4 {
+	text-align:justify;
+	width: 750px;
+	height:auto;
+	font-size: 26px;
+	top: 10%;
+	right: 10%;
+	text-align:justify;
+	text-justify:newspaper;
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+
+#poster0 .fp-tableCell .linkcaad {
+	text-align:justify;
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	color: #FFF;
+	font-size: 19px;
+	top: 50%;
+	left: 17%;
+	margin-top: 30px
+	
+}
+
+
+
+
+
+
+#poster0 .fp-tableCell .title2 {
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	margin-top: -15%;	
+	left: 10%;
+	top:60%;
+	font-size: 30px;
+	color:#FFF000;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+}
+
+
+#poster0 .fp-tableCell .title3 {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 15%;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	opacity:0.7;
+
+}
+
+
+
+#poster0 .fp-tableCell .title3:hover{
+		opacity:1;
+
+}
+
+#poster0 .fp-tableCell .title3 p{
+    margin: 2%;
+}
+
+
+
+#poster0 .fp-tableCell .t1 {
+	position: absolute;
+	width: 12.5%;
+/*	height: 600px;*/
+	position: absolute;
+	font-size: 30px;
+	color:#FFF000;
+	left: 16%;
+	background: #C0C0C0;
+	opacity:1;
+
+
+/*
+	margin-top: -50px;
+	-moz-transform: scale3d(0.8, 0.8, 1);
+	-ms-transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1)
+*/
+}
+
+
+#poster0 .fp-tableCell .assay5 {
+
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	color: #FFF;
+	font-size: 20px;
+	top: 40%;
+	left: 22%;
+	margin-top: 50px
+	
+}
+
+
+#poster0 .fp-tableCell .assay p {
+	color: #fefefe;
+	font-size: 25px;
+	margin-top: 0;
+	height: 24px;
+	line-height: 1.5;
+	width: 350px;
+	margin-left: 100px;
+	opacity: 0;
+	-moz-transition: all 1.5s linear 1s;
+	-o-transition: all 1.5s linear 1s;
+	-webkit-transition: all 1.5s linear;
+	-webkit-transition-delay: 1s;
+	transition: all 1.5s linear 1s
+}
+
+
+
+#poster0 .fp-tableCell .assay h3 {
+	font-size: 50px;
+	font-weight: normal;
+	color: #FFF100;
+	margin-top: 10 %;
+	opacity: 0;
+	-moz-transition: all 1.5s linear .5s;
+	-o-transition: all 1.5s linear .5s;
+	-webkit-transition: all 1.5s linear;
+	-webkit-transition-delay: .5s;
+	transition: all 1.5s linear .5s
+}
+
+
+
+#poster0 .fp-tableCell {
+	position: relative
+}
+
+
+/* #b-1,call for paper, Papers*/
+
+
+
+
+#poster0.active .fp-tableCell .assay h3 {
+	margin-left: 0;
+	opacity: 1
+}
+
+#poster0.active .fp-tableCell .assay p {
+	margin-left: 0;
+	opacity: 1
+}
+
+@-moz-keyframes showline {
+	to {
+		stroke-dashoffset: 0
+	}
+}
+
+@-webkit-keyframes showline {
+	to {
+		stroke-dashoffset: 0
+	}
+}
+
+@keyframes showline {
+	to {
+		stroke-dashoffset: 0
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+	#poster0 .fp-tableCell .flower {
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+		left: 15%
+	}
+
+	#poster0 .fp-tableCell .assay {
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+		right: 15%
+	}
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+	#poster0 .fp-tableCell .assay {
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+		right: 22%
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	#poster0 .fp-tableCell .assay {
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+		right: 24%
+	}
+}
+
+
+
+#poster.active #poster0.active .fp-tableCell .aside img:nth-child(2) {
+	opacity: 1;
+	top: 20%;
+	right: 4%
+}
+
+#poster.active #poster0.active .fp-tableCell .aside img:nth-child(3) {
+	opacity: 1
+}
+
+#poster.active #poster0.active .fp-tableCell .assay h3 {
+	opacity: 1;
+	margin-left: 0
+}
+
+#poster.active #poster0.active .fp-tableCell .assay p {
+	opacity: 1;
+	margin-left: 0
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+	#poster0 .fp-tableCell .aside {
+		left: 10%;
+		-moz-transform: scale3d(0.9, 0.9, 1);
+		-ms-transform: scale3d(0.9, 0.9, 1);
+		-webkit-transform: scale3d(0.9, 0.9, 1);
+		transform: scale3d(0.9, 0.9, 1)
+	}
+
+	#poster0 .fp-tableCell .assay {
+		right: 10%;
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+	#poster0 .fp-tableCell .aside {
+		left: 18%;
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	#poster0 .fp-tableCell .assay {
+		right: 18%;
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	#poster0 .fp-tableCell .aside {
+		left: 20%;
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	#poster0 .fp-tableCell .assay {
+		right: 20%;
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+
+
+
+
+
+
+
+
 /*poster1*/
 
 #poster1 .fp-tableCell {
@@ -1590,7 +2039,7 @@ margin-top: 30%
 
 
 
-#poster1 .fp-tableCell .t4 {
+#poster4 .fp-tableCell .t4 {
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
@@ -1607,7 +2056,7 @@ margin-top: 30%
 
 
 
-#poster1 .fp-tableCell .t5 {
+#poster4 .fp-tableCell .t5 {
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
@@ -1635,7 +2084,7 @@ margin-top: 30%
 
 }
 
-#poster1 .fp-tableCell .t7 {
+#poster4 .fp-tableCell .t7 {
 	position: absolute;
 	text-align: center;
 	width: 16.3%;
@@ -2588,22 +3037,22 @@ to {-webkit-transform: rotate(360deg);}
 
 
 #product .mainWrap .weiboreach .img {
-	background: url(../img/weiboreach.png) center center no-repeat;
+	
 	background-size: 100%
 }
 
 #product .mainWrap .weiboreach .img:hover {
-	background: url(../img/weiboreachhover.png) center center no-repeat;
+	
 	background-size: 100%
 }
 
 #product .mainWrap .TDDs .img {
-	background: url(../img/eventful.png) center center no-repeat;
+	
 	background-size: 100%
 }
 
 #product .mainWrap .TDDs .img:hover {
-	background: url(../img/eventfulhover.png) center center no-repeat;
+	
 	background-size: 100%
 }
 
@@ -3197,7 +3646,7 @@ to {-webkit-transform: rotate(360deg);}
 	margin-left: 10px;
 	margin-top: 0;
 	padding: 0;
-	background: url(../img/bottomline.png) top center repeat-x
+	
 }
 
 #case .wrap .casetwo .assay .container .video ul a {
@@ -3209,7 +3658,8 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .container .video ul li {
-	background: url(../img/bottomline.png) bottom center repeat-x;
+	
+
 	height: 46px;
 	clear: both
 }
@@ -4180,7 +4630,7 @@ to {-webkit-transform: rotate(360deg);}
 	vertical-align: middle;
 	width: 25px;
 	height: 21px;
-	background: url(../img/aboutus.png)
+	
 }
 
 #aboutUs footer a:nth-child(1) .logo {
