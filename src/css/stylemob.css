@@ -680,7 +680,7 @@ a:-ms-any-link {
 #logo .regist{
 
 	right: 13%;
-	top: 50%
+	top: 60%
 }
 /*f*/
 
@@ -697,7 +697,7 @@ a:-ms-any-link {
 
 #logo .tsda{
 	left: 10%;
-	top: 55%
+	top: 62%
 }
 
 
@@ -2005,7 +2005,7 @@ margin-top: 30%
 	height: 8%;
 
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	top: 32%;
 	left: 20%;
 	background: #C0C0C0;
@@ -2019,7 +2019,7 @@ margin-top: 30%
 	height: 8%;
 	top: 32%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	left: 40%;
 	background: #C0C0C0;
 
@@ -2037,7 +2037,7 @@ margin-top: 30%
 	left: 60%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	
 	background: #C0C0C0;
 
@@ -2054,7 +2054,7 @@ margin-top: 30%
 	left: 20%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	
 	background: #C0C0C0;
 
@@ -2067,7 +2067,7 @@ margin-top: 30%
 	height: 12%;
 	top: 40%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	left: 40%;
 	background: #C0C0C0;
 
@@ -2082,7 +2082,7 @@ margin-top: 30%
 	left: 60%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#FFF;
 	
 	background: #C0C0C0;
 
@@ -2646,8 +2646,8 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #poster3  .schedule1 {
-	left: 10%;
-	top: 25%;
+	left: 15%;
+	top: 80%;
 }
 
 #poster3  .schedule1 p:hover{
@@ -2656,19 +2656,19 @@ to {-webkit-transform: rotate(360deg);}
 
 
 #poster3  .schedule2 {
-	left: 10%;
-	top: 40%
+	left: 35%;
+	top: 80%
 }
 
 #poster3  .schedule3 {
-	left: 10%;
-	top: 55%
+	left: 55%;
+	top: 80%
 }
 
 
 #poster3  .schedule4 {
-	left: 10%;
-	top: 70%
+	left: 75%;
+	top: 80%
 }
 
 
