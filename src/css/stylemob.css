@@ -449,6 +449,105 @@ a:-ms-any-link {
 	top: 75%
 }
 
+
+/*add the fixsition for cellpone with lower px*/
+@media screen and (min-width: 700px) and (max-width: 986px) {
+	.turnPage {
+		display: block
+	}
+
+	#poster .decorations {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0
+	}
+
+	#poster .decorations img {
+		position: absolute
+	}
+
+	#poster .decorations img:nth-child(1) {
+		left: 18%;
+		top: 20%
+	}
+
+	#poster .decorations img:nth-child(2) {
+		left: 10%;
+		top: 44%
+	}
+
+	#poster .decorations img:nth-child(3) {
+		left: 18%;
+		top: 75%
+	}
+
+	#poster .decorations img:nth-child(4) {
+		right: 18%;
+		top: 20%
+	}
+
+	#poster .decorations img:nth-child(5) {
+		right: 10%;
+		top: 44%
+	}
+
+	#poster .decorations img:nth-child(6) {
+		right: 18%;
+		top: 75%
+	}
+}
+
+@media screen and (min-width: 986px) and (max-width: 1200px) {
+	.turnPage {
+		display: block
+	}
+
+	#poster .decorations {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0
+	}
+
+	#poster .decorations img {
+		position: absolute
+	}
+
+	#poster .decorations img:nth-child(1) {
+		left: 18%;
+		top: 20%
+	}
+
+	#poster .decorations img:nth-child(2) {
+		left: 10%;
+		top: 44%
+	}
+
+	#poster .decorations img:nth-child(3) {
+		left: 18%;
+		top: 75%
+	}
+
+	#poster .decorations img:nth-child(4) {
+		right: 18%;
+		top: 20%
+	}
+
+	#poster .decorations img:nth-child(5) {
+		right: 10%;
+		top: 44%
+	}
+
+	#poster .decorations img:nth-child(6) {
+		right: 18%;
+		top: 75%
+	}
+}
+
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
 	.turnPage {
 		display: block

@@ -1168,11 +1168,7 @@ a:-ms-any-link {
 	
 }
 */
-#poster0 .fp-tableCell .assay1 {
-	position: absolute;
-	margin-top: 1%;
-	transform: scale3d(0.8, 0.8, 1)
-}
+
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
 	#poster1 .fp-tableCell .assay2 {
@@ -1516,22 +1512,27 @@ a:-ms-any-link {
 	}
 }
 
+@media screen and (min-width: 100px) and (max-width: 700px) {
+	#poster0 .fp-tableCell .assay1 {
+		color: #FFF;
+		width:60%;
+		font-size: 8px;
+		margin-top: 2%;
+		margin-left: 20%;
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
 
 
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
-	#poster0 .fp-tableCell .aside {
-		left: 10%;
-		-moz-transform: scale3d(0.9, 0.9, 1);
-		-ms-transform: scale3d(0.9, 0.9, 1);
-		-webkit-transform: scale3d(0.9, 0.9, 1);
-		transform: scale3d(0.9, 0.9, 1)
-	}
-
 	#poster0 .fp-tableCell .assay1 {
 		color: #FFF;
-		width:700px;
-		font-size: 17px;
+		width:60%;
+		font-size: 15px;
 		margin-top: 2%;
 		margin-left: 20%;
 		-moz-transform: scale3d(1, 1, 1);
@@ -1542,18 +1543,10 @@ a:-ms-any-link {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
-	#poster0 .fp-tableCell .aside {
-		left: 10%;
-		-moz-transform: scale3d(0.9, 0.9, 1);
-		-ms-transform: scale3d(0.9, 0.9, 1);
-		-webkit-transform: scale3d(0.9, 0.9, 1);
-		transform: scale3d(0.9, 0.9, 1)
-	}
-
 	#poster0 .fp-tableCell .assay1 {
 		color: #FFF;
-		width:800px;
-		font-size: 19px;
+		width:60%;
+		font-size: 18px;
 		margin-top: 5%;
 		margin-left: 20%;
 
@@ -1565,18 +1558,10 @@ a:-ms-any-link {
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-	#poster0 .fp-tableCell .aside {
-		left: 18%;
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1)
-	}
-
 	#poster0 .fp-tableCell .assay1 {
 		margin-left: 20%;
 		margin-top: 2%;
-		width: 900px;
+		width:60%;
 		font-size: 22px;
 		color: #FFF;
 		-moz-transform: scale3d(1, 1, 1);
@@ -1587,18 +1572,10 @@ a:-ms-any-link {
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2399px) {
-	#poster0 .fp-tableCell .aside {
-		left: 20%;
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1)
-	}
-
 	#poster0 .fp-tableCell .assay1 {
 		margin-left: 20%;
 		margin-top: 2%;
-		width: 1100px;
+		width:60%;
 		font-size: 28px;
 		color: #FFF;
 		-moz-transform: scale3d(1, 1, 1);
@@ -1609,19 +1586,11 @@ a:-ms-any-link {
 }
 
 @media screen and (min-width: 2400px) and (max-width: 3199px){
-	#poster0 .fp-tableCell .aside {
-		left: 20%;
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1)
-	}
-
 	#poster0 .fp-tableCell .assay1 {
 		margin-left: 20%;
 		margin-top: 2%;
-		width: 1500px;
-		font-size: 40px;
+		width:60%;
+		font-size: 35px;
 		color: #FFF;
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
@@ -1630,20 +1599,12 @@ a:-ms-any-link {
 	}
 }
 
-@media screen and (min-width: 3200px) {
-	#poster0 .fp-tableCell .aside {
-		left: 20%;
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1)
-	}
-
+@media screen and (min-width: 3200px) and (max-width: 4000px){
 	#poster0 .fp-tableCell .assay1 {
 		margin-left: 20%;
 		margin-top: 2%;
-		width: 2200px;
-		font-size: 60px;
+		width:60%;
+		font-size: 48px;
 		color: #FFF;
 		-moz-transform: scale3d(1, 1, 1);
 		-ms-transform: scale3d(1, 1, 1);
@@ -1651,6 +1612,20 @@ a:-ms-any-link {
 		transform: scale3d(1, 1, 1)
 	}
 }
+@media screen and (min-width: 4000px) {
+	#poster0 .fp-tableCell .assay1 {
+		margin-left: 20%;
+		margin-top: 2%;
+		width:60%;
+		font-size: 70px;
+		color: #FFF;
+		-moz-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1)
+	}
+}
+
 
 
 
@@ -1724,13 +1699,6 @@ a:-ms-any-link {
 
 
 
-
-#poster1 .fp-tableCell .assay1 {
-	position: absolute;
-	margin-top: 1%;
-	margin-left: 20%;
-	transform: scale3d(0.8, 0.8, 1)
-}
 
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
@@ -2076,13 +2044,7 @@ margin-top: 30%
 #poster4 .fp-tableCell .title3 p{
     margin: 2%;
 }
-#poster4 .fp-tableCell .assay1 {
-	position: absolute;
-	margin-top: 1%;
-	margin-left: 20%;
-	color: #FFF100;
-	transform: scale3d(0.8, 0.8, 1)
-}
+
 
 
 
