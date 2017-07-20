@@ -1889,6 +1889,30 @@ a:-ms-any-link {
 }
 
 
+
+
+#poster2  .regis_img {
+	position: absolute;
+	width: 30%;
+	left:30%;
+	top:25%;
+	
+}
+
+#poster2  .regis {
+	position: absolute;
+	top: 35%;
+	left: 32%;
+	margin-top: 50px
+}
+
+#poster2  .regis p{
+	
+	color: #FFF;
+	font-size: 16px;
+
+}
+
 #poster1 .fp-tableCell .assay p {
 	color: #fefefe;
 	font-size: 25px;

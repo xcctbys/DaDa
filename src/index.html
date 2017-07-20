@@ -386,9 +386,22 @@
               <!-- #b/3 -->
              
                 <div class="slide" id="poster2">               
-                    <div style="width:30%; margin-top: -10%; margin-left: 15%">
-                        <img  src="../img/regi.png" style="width: 80%">
-                    </div>
+<!--                    <div style="width:30%; margin-top: -10%; margin-left: 15%">-->
+                        <img class="regis_img" src="../img/regi.png" >
+<!--                    </div>-->
+                    <form class="regis"  action="/regist/form_action.asp" method="post">
+<!--                    姓名、年龄、学校、专业、年级、论文名称-->
+  					<p>Name: <input type="text" name="fname" /></p>
+  					<p>Age: <input type="text" name="lname" /></p>
+  					<p>College: <input type="text" name="lname" /></p>
+  					<p>Major: <input type="text" name="lname" /></p>
+  					<p>Grade: <input type="text" name="lname" /></p>
+  					<p>Paper Name: <input type="text" name="lname" /></p>
+  					<input type="submit" value="Submit" />
+  					<p>Click the submit button to register</p>
+
+					</form>
+
 
 
 
