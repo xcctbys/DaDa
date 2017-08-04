@@ -75,7 +75,7 @@ a:-ms-any-link {
 }
 
 #fp-nav {
-	top: 90%
+	top: 85%
 }
 
 #fp-nav ul li a span {
@@ -91,7 +91,7 @@ a:-ms-any-link {
 	left: 0;
 	margin: 0;
 	text-align: center;
-	background: #3a3a45;
+	background: #adadad;
 	display: block;
 	opacity: 0;
 	-moz-transition: all 1s linear;
@@ -128,7 +128,7 @@ a:-ms-any-link {
 }
 
 .nav a.navigation:hover {
-	background: #c81315
+	background: #d4504f
 }
 
 
@@ -256,7 +256,7 @@ a:-ms-any-link {
 	display: none;
 	position: fixed;
 	right: 85px;
-	top: 91%;
+	top: 88%;
 	margin-top: 50px;
 	z-index: 10000;
 	color: #FFF;
@@ -1276,7 +1276,7 @@ a:-ms-any-link {
 /*	height: 600px;*/
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 	left: 16%;
 	background: #C0C0C0;
 	opacity:1;
@@ -1805,7 +1805,7 @@ a:-ms-any-link {
 	left: 10%;
 	top:60%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
@@ -1819,7 +1819,7 @@ a:-ms-any-link {
 	height:40px;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 	left: 15%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
@@ -1848,7 +1848,7 @@ a:-ms-any-link {
 /*	height: 600px;*/
 	position: absolute;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 	left: 16%;
 	background: #C0C0C0;
 	opacity:1;
@@ -1878,20 +1878,25 @@ a:-ms-any-link {
 }
 
 
-
-
 #poster2  .regis_img {
 	position: absolute;
 	width: 30%;
-	left:30%;
+	left:20%;
 	top:25%;
 	
 }
 
 #poster2  .regis {
 	position: absolute;
-	top: 35%;
+	top: 40%;
 	left: 32%;
+	margin-top: 50px
+}
+
+#poster2  .regis-input {
+	position: absolute;
+	top: 40%;
+	right: 40%;
 	margin-top: 50px
 }
 
@@ -2037,7 +2042,7 @@ margin-top: 30%
 	font-size: 10px;
 	text-align: center;
 	vertical-align: center;
-	color:#FFF000;
+	color:#3e3e3e;
 	left: 15%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
@@ -2070,7 +2075,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 15px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 
@@ -2082,7 +2087,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 20px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 
@@ -2093,7 +2098,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 
@@ -2105,7 +2110,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 
@@ -2117,7 +2122,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 @media screen and (min-width: 3200px) and (max-width: 4000px) {
@@ -2128,7 +2133,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 60px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 @media screen and (min-width: 4000px){
@@ -2139,7 +2144,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	font-size: 75px;
-	color:#FFF000;
+	color:#3e3e3e;
 }
 }
 
@@ -2149,10 +2154,8 @@ margin-top: 30%
 
 #poster4 .fp-tableCell .assay6 {
 	position: absolute;
-	
-/
 	margin-left: -35%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2161,7 +2164,7 @@ margin-top: 30%
 	
 	
 	margin-left:-30%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2169,7 +2172,7 @@ margin-top: 30%
 	position: absolute;
 	
 	margin-left: -25%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2178,7 +2181,7 @@ margin-top: 30%
 	
 
 	margin-left: -35%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2187,7 +2190,7 @@ margin-top: 30%
 	
 
 	margin-left: -30%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 #poster4 .fp-tableCell .assay11 {
@@ -2195,7 +2198,7 @@ margin-top: 30%
 	
 
 	margin-left: -25%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2206,7 +2209,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 15px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 
@@ -2216,7 +2219,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 17px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 
@@ -2226,7 +2229,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 20px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 
@@ -2236,7 +2239,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 25px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 
@@ -2246,7 +2249,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 30px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 @media screen and (min-width: 3200px) and (max-width: 4000px) {
@@ -2255,7 +2258,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 45px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 @media screen and (min-width: 4000px){
@@ -2264,7 +2267,7 @@ margin-top: 30%
 	height: 9%;
 	width: 16%;
 	font-size: 60px;
-	color:#FFF000;
+	color:#c81315;
 }
 }
 
@@ -2279,7 +2282,7 @@ margin-top: 30%
 #poster4 .fp-tableCell .t3 {
 	position: absolute;
 	top: 32%;
-	color:#FFF000;
+	color:#c81315;
 	left: 40%;
 	background: #C0C0C0;
 
@@ -2294,7 +2297,7 @@ margin-top: 30%
 	top: 32%;
 	left: 60%;
 	position: absolute;
-	color:#FFF000;
+	color:#c81315;
 	
 	background: #C0C0C0;
 
@@ -2308,7 +2311,7 @@ margin-top: 30%
 	top: 45%;
 	left: 20%;
 	position: absolute;
-	color:#FFF000;
+	color:#c81315;
 	
 	background: #C0C0C0;
 
@@ -2318,7 +2321,7 @@ margin-top: 30%
 	position: absolute;
 	
 	top: 45%;
-	color:#FFF000;
+	color:#c81315;
 	left: 40%;
 	background: #C0C0C0;
 
@@ -2330,7 +2333,7 @@ margin-top: 30%
 	top: 45%;
 	left: 60%;
 	position: absolute;
-	color:#FFF000;
+	color:#c81315;
 	background: #C0C0C0;
 
 }
