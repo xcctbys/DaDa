@@ -79,7 +79,7 @@ a:-ms-any-link {
 }
 
 #fp-nav ul li a span {
-	background: #FFF100
+	background: #c81315
 }
 
 .nav {
@@ -128,13 +128,13 @@ a:-ms-any-link {
 }
 
 .nav a.navigation:hover {
-	background: #FFF100
+	background: #c81315
 }
 
 
 /*delete to avoid kepping yellow of banner #a*/
 /*.nav a.navigation.active {
-	background: #FFF100
+	background: #c81315
 }*/
 
 .nav a.main{
@@ -267,7 +267,7 @@ a:-ms-any-link {
 .turnPage span {
 	position: absolute;
 	font-size: 12px;
-	color: #FFF100;
+	color: #c81315;
 	display: inline-block;
 	width: 80px;
 	left: 25px;
@@ -712,7 +712,7 @@ a:-ms-any-link {
 
 #logo .text3 {
 	font-size: 25px;
-	color: #FFF100
+	color: #c81315
 }
 
 
@@ -789,20 +789,12 @@ a:-ms-any-link {
 	top: 50%
 }
 
-#logo .theme1{
-	left: 10%;
-	top: 20%
+#logo .theme{
+	left: 1%;
+	top:1%
 }
 
-#logo .theme2{
-	right: 20%;
-	top: 32%
-}
 
-#logo .theme3{
-	left: 30%;
-	top: 70%
-}
 
 /*#logo .thu {
 	left: 20%;
@@ -868,11 +860,10 @@ a:-ms-any-link {
 
 
 
-
 #logo .cloud {
 	
 	top: 40%;
-	margin-top:-12%;
+	
 	z-index: 1000
 }
 
@@ -893,7 +884,7 @@ a:-ms-any-link {
 }
 
 #logo .slogan h1 span {
-	color: #FFF100
+	color: #c81315
 }
 
 #logo .one {
@@ -1035,9 +1026,13 @@ a:-ms-any-link {
 		top: 12%
 	}
 
+
 	#logo .theme2 {
-		left: 29.5%;
-		top: 21%
+    
+    top: 10%;
+    left: -1%;
+    width: 60%;
+    
 	}
 
 	#logo .theme3 {
@@ -1162,21 +1157,6 @@ a:-ms-any-link {
 }
 
 
-/*#poster0 .fp-tableCell .assay {
-	transform: scale3d(0.9, 0.9, 1);
-	position: absolute;
-	margin-top: 1%;
-	left: 1%;
-	margin-left: 10px;
-	height: auto;
-	width: 80%;
-	position: absolute;
-	font-size: 20px;
-	color: #FFF;
-	
-	
-}
-*/
 
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
@@ -1347,7 +1327,7 @@ a:-ms-any-link {
 #poster0 .fp-tableCell .assay h3 {
 	font-size: 50px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
@@ -1462,7 +1442,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 40px;
 		margin-top: 8%;
 		margin-left: 20%;
@@ -1472,7 +1452,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 45px;
 		margin-top: 8%;
 		margin-left: 20%;
@@ -1483,7 +1463,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 50px;
 		margin-top: 8%;
 		margin-left: 20%;
@@ -1493,7 +1473,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 1920px) and (max-width: 2399px) {
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 60px;
 		margin-top: 8%;
 		margin-left: 20%;
@@ -1503,7 +1483,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 2400px) and (max-width: 3199px){
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 80px;
 		margin-top: 8%;
 		margin-left: 20%;
@@ -1513,7 +1493,7 @@ a:-ms-any-link {
 
 @media screen and (min-width: 3200px) {
 	#poster0 .fp-tableCell .assay {
-		color: #FFF100;
+		color: #c81315;
 		font-size: 120px;
 		margin-top: 7%;
 		margin-left: 20%;
@@ -1943,7 +1923,7 @@ a:-ms-any-link {
 #poster1 .fp-tableCell .assay h3 {
 	font-size: 50px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
@@ -2407,7 +2387,7 @@ margin-top: 30%
 	margin-left: 100px;
 	opacity: 0;
 	font-size: 20px;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 0
 }
 
@@ -3231,7 +3211,7 @@ to {-webkit-transform: rotate(360deg);}
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #FFF100;
+	background: #c81315;
 	margin-right: 0em
 }
 
@@ -3618,11 +3598,11 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .caseone .assay h3 {
-	border-left: 8px solid #FFF100;
+	border-left: 8px solid #c81315;
 	font-size: 24px;
 	font-weight: normal;
 	padding-left: 10px;
-	color: #FFF100;
+	color: #c81315;
 	margin-bottom: 15px;
 	margin-left: -100px;
 	-moz-transition: all 1s linear;
@@ -3811,9 +3791,9 @@ to {-webkit-transform: rotate(360deg);}
 #case .wrap .casetwo .assay h3 {
 	font-size: 24px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	padding-left: 10px;
-	border-left: 10px solid #FFF100;
+	border-left: 10px solid #c81315;
 	margin-top: 10px;
 	-moz-transition: all 1s linear;
 	-o-transition: all 1s linear;
@@ -3867,7 +3847,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span.active {
-	color: #FFF100
+	color: #c81315
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span:hover {
@@ -3875,7 +3855,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span:nth-child(1) {
-	border-right: 3px solid #FFF100
+	border-right: 3px solid #c81315
 }
 
 #case .wrap .casetwo .assay .container {
@@ -3910,7 +3890,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .container .video ul a:hover {
-	color: #FFF100
+	color: #c81315
 }
 
 #case .wrap .casetwo .assay .container .video ul li {
@@ -3988,9 +3968,9 @@ to {-webkit-transform: rotate(360deg);}
 #case .wrap .casethree .assay h3 {
 	font-size: 24px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	padding-left: 10px;
-	border-left: 10px solid #FFF100;
+	border-left: 10px solid #c81315;
 	margin-top: 10px;
 	margin-left: -100px;
 	opacity: 0;
@@ -4014,7 +3994,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casethree .assay p span {
-	color: #FFF100
+	color: #c81315
 }
 
 @-moz-keyframes textmotion {
@@ -4291,7 +4271,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .team .title {
 	position: absolute;
-	color: #FFF100;
+	color: #c81315;
 	font-size: 30px;
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
@@ -4330,7 +4310,7 @@ to {-webkit-transform: rotate(360deg);}
 	height: 100%;
 	visibility: hidden;
 	opacity: 0;
-	background: #FFF100;
+	background: #c81315;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -4363,7 +4343,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(1) .img {
@@ -4405,7 +4385,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(2) .img {
@@ -4517,7 +4497,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100;
+	background: #c81315;
 	z-index: 800
 }
 
@@ -4701,7 +4681,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(28) .img {
@@ -4877,7 +4857,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #aboutUs footer a:hover {
-	color: #FFF100;
+	color: #c81315;
 	cursor: pointer
 }
 
@@ -5193,7 +5173,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .show .name {
 	font-size: 30px;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 5px
 }
 
@@ -5205,7 +5185,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .show ul {
 	font-size: 13px;
-	color: #FFF100
+	color: #c81315
 }
 
 #aboutUs .show ul li span {
