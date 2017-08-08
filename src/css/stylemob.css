@@ -11,9 +11,9 @@
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABoCAYAAAB8BJfjAAAEDWlDQ1BJQ0MgUHJvZmlsZQAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VVBg/m8AAAFcSURBVHgB7dLBCQAhAAPB85oSxP7bUrCIeW0aWBgy1tzna0zgZ6VCTyBwfITAA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDA8cCONfDMfgFKPgCfI126ycAAAAASUVORK5CYII=');
 	
 	background-size: 100%;
-	background-image: -moz-radial-gradient(#4B474D,#4B474D);
-	background-image: -webkit-radial-gradient(#4B474D,#4B474D);
-	background-image: radial-gradient(#4B474D,#4B474D)
+	background-image: -moz-radial-gradient(#FFF,#FFF);
+	background-image: -webkit-radial-gradient(#FFF,#FFF);
+	background-image: radial-gradient(#FFF,#FFF)
 }
 
 
@@ -79,7 +79,7 @@ a:-ms-any-link {
 }
 
 #fp-nav ul li a span {
-	background: #FFF100
+	background: #c81315
 }
 
 .nav {
@@ -91,7 +91,7 @@ a:-ms-any-link {
 	left: 0;
 	margin: 0;
 	text-align: center;
-	background: #3a3a45;
+	background: #adada;
 	display: block;
 	opacity: 0;
 	-moz-transition: all 1s linear;
@@ -120,7 +120,7 @@ a:-ms-any-link {
 	line-height: 20px;
 	padding: 10px;
 	font-size: 16px;
-	color: #fefefe
+	color: #3e3e3e
 }
 
 .nav a span {
@@ -128,13 +128,13 @@ a:-ms-any-link {
 }
 
 .nav a.navigation:hover {
-	background: #FFF100
+	background: #c81315
 }
 
 
 /*delete to avoid kepping yellow of banner #a*/
 /*.nav a.navigation.active {
-	background: #FFF100
+	background: #c81315
 }*/
 
 .nav a.main{
@@ -228,7 +228,7 @@ a:-ms-any-link {
 	position: relative;
 	padding: 0;
 	margin: 0;
-	height: 100%;
+	
 	width: 100%
 }
 
@@ -267,7 +267,7 @@ a:-ms-any-link {
 .turnPage span {
 	position: absolute;
 	font-size: 12px;
-	color: #FFF100;
+	color: #c81315;
 	display: inline-block;
 	width: 80px;
 	left: 25px;
@@ -703,18 +703,18 @@ a:-ms-any-link {
 
 #logo .text {
 	font-size: 23px;
-	color: #FFF100
+	color: #c81315
 
 }
 
 #logo .text2 {
 	font-size: 15px;
-	color: #FFF100
+	color: #c81315
 }
 
 #logo .text3 {
 	font-size: 25px;
-	color: #FFF100
+	color: #c81315
 }
 
 
@@ -728,12 +728,12 @@ a:-ms-any-link {
 }
 
 #logo .text2 p:nth-child(2) {
-	color: #fefefe
+	color: #3e3e3e
 }
 
 
 #logo .text p:nth-child(2) {
-	color: #fefefe
+	color: #3e3e3e
 }
 
 #logo {
@@ -890,7 +890,7 @@ a:-ms-any-link {
 }
 
 #logo .slogan h1 span {
-	color: #FFF100
+	color: #c81315
 }
 
 #logo .one {
@@ -1172,7 +1172,7 @@ a:-ms-any-link {
 	width: 900px;
 	position: absolute;
 	font-size: 40px;
-	color: #FFF100;
+	color: #c81315;
 	right: 20%;
 	
 }
@@ -1352,7 +1352,7 @@ a:-ms-any-link {
 #poster0 .fp-tableCell .assay h3 {
 	font-size: 50px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
@@ -1578,11 +1578,10 @@ a:-ms-any-link {
 	top: 20%;
 	left: 15%;
 	margin-left: 10px;
-	height: auto;
-	width: 900px;
+	width: 55%;
 	position: absolute;
 	font-size: 40px;
-	color: #FFF100;
+	color: #c81315;
 	right: 20%;
 	
 }
@@ -1618,7 +1617,7 @@ a:-ms-any-link {
 	position: absolute;
 	width: 30%;
 	height: auto;
-	color: #FFF;
+	color: #3e3e3e;
 	font-size: 24px;
 	top: 30%;
 	left: 12%;
@@ -1762,7 +1761,7 @@ a:-ms-any-link {
 #poster1 .fp-tableCell .assay h3 {
 	font-size: 50px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 10 %;
 	opacity: 0;
 	-moz-transition: all 1.5s linear .5s;
@@ -1957,16 +1956,10 @@ a:-ms-any-link {
     -webkit-transform: scale3d(0.9, 0.9, 1);
     transform: scale3d(0.9, 0.9, 1);
     position: absolute;
+    width: 40%;
     top: 20%;
-    left: 15%;
-    margin-left: 10px;
-    height: auto;
-    width: 900px;
-    position: absolute;
-    font-size: 40px;
-    color: #FFF100;
-    right: 20%;
-
+    left: 20%;
+    
 }
 
 
@@ -2013,7 +2006,7 @@ margin-top: 30%
 	position: absolute;
 	margin-top: 1%;
 	margin-left: 20%;
-	color: #FFF100;
+	color: #c81315;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2239,7 +2232,7 @@ margin-top: 30%
 	margin-left: 100px;
 	opacity: 0;
 	font-size: 20px;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 0
 }
 
@@ -2411,12 +2404,12 @@ margin-top: 30%
 }
 
 #poster2 .fp-tableCell .assay {
-	width: 440px;
-	height: 200px;
+	width: 60%;
+	
 	position: absolute;
 	right: 25%;
 	top: 20%;
-	margin-top: -100px;
+	margin-top: 10%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
 	-webkit-transform: scale3d(0.8, 0.8, 1);
@@ -3063,7 +3056,7 @@ to {-webkit-transform: rotate(360deg);}
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #FFF100;
+	background: #c81315;
 	margin-right: 0em
 }
 
@@ -3450,11 +3443,11 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .caseone .assay h3 {
-	border-left: 8px solid #FFF100;
+	border-left: 8px solid #c81315;
 	font-size: 24px;
 	font-weight: normal;
 	padding-left: 10px;
-	color: #FFF100;
+	color: #c81315;
 	margin-bottom: 15px;
 	margin-left: -100px;
 	-moz-transition: all 1s linear;
@@ -3643,9 +3636,9 @@ to {-webkit-transform: rotate(360deg);}
 #case .wrap .casetwo .assay h3 {
 	font-size: 24px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	padding-left: 10px;
-	border-left: 10px solid #FFF100;
+	border-left: 10px solid #c81315;
 	margin-top: 10px;
 	-moz-transition: all 1s linear;
 	-o-transition: all 1s linear;
@@ -3699,7 +3692,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span.active {
-	color: #FFF100
+	color: #c81315
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span:hover {
@@ -3707,7 +3700,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .tabs .tabName span:nth-child(1) {
-	border-right: 3px solid #FFF100
+	border-right: 3px solid #c81315
 }
 
 #case .wrap .casetwo .assay .container {
@@ -3742,7 +3735,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casetwo .assay .container .video ul a:hover {
-	color: #FFF100
+	color: #c81315
 }
 
 #case .wrap .casetwo .assay .container .video ul li {
@@ -3820,9 +3813,9 @@ to {-webkit-transform: rotate(360deg);}
 #case .wrap .casethree .assay h3 {
 	font-size: 24px;
 	font-weight: normal;
-	color: #FFF100;
+	color: #c81315;
 	padding-left: 10px;
-	border-left: 10px solid #FFF100;
+	border-left: 10px solid #c81315;
 	margin-top: 10px;
 	margin-left: -100px;
 	opacity: 0;
@@ -3846,7 +3839,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #case .wrap .casethree .assay p span {
-	color: #FFF100
+	color: #c81315
 }
 
 @-moz-keyframes textmotion {
@@ -4123,7 +4116,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .team .title {
 	position: absolute;
-	color: #FFF100;
+	color: #c81315;
 	font-size: 30px;
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
@@ -4162,7 +4155,7 @@ to {-webkit-transform: rotate(360deg);}
 	height: 100%;
 	visibility: hidden;
 	opacity: 0;
-	background: #FFF100;
+	background: #c81315;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -4195,7 +4188,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(1) .img {
@@ -4237,7 +4230,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(2) .img {
@@ -4349,7 +4342,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100;
+	background: #c81315;
 	z-index: 800
 }
 
@@ -4533,7 +4526,7 @@ to {-webkit-transform: rotate(360deg);}
 	-o-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-webkit-transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	transition: all 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	background: #FFF100
+	background: #c81315
 }
 
 #aboutUs .team .person:nth-child(28) .img {
@@ -4709,7 +4702,7 @@ to {-webkit-transform: rotate(360deg);}
 }
 
 #aboutUs footer a:hover {
-	color: #FFF100;
+	color: #c81315;
 	cursor: pointer
 }
 
@@ -5025,7 +5018,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .show .name {
 	font-size: 30px;
-	color: #FFF100;
+	color: #c81315;
 	margin-top: 5px
 }
 
@@ -5037,7 +5030,7 @@ to {-webkit-transform: rotate(360deg);}
 
 #aboutUs .show ul {
 	font-size: 13px;
-	color: #FFF100
+	color: #c81315
 }
 
 #aboutUs .show ul li span {
