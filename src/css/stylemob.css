@@ -128,7 +128,7 @@ a:-ms-any-link {
 }
 
 .nav a.navigation:hover {
-	background: #c81315
+	background: #d4504f
 }
 
 
@@ -868,11 +868,17 @@ a:-ms-any-link {
 
 #logo .cloud {
 	
-	top: 40%;
+	top: 30%;
 	margin-top:-12%;
 	z-index: 1000
 }
 
+#logo .cloud2 {
+	
+	top: 35%;
+	margin-top:-12%;
+	z-index: 1000
+}
 
 
 
@@ -1982,7 +1988,7 @@ margin-top: 30%
 	font-size: 40px;
 	text-align: center;
 	vertical-align: center;
-	color:#FFF000;
+	color:#3e3e3e;
 	left: 15%;
 	-moz-transform: scale3d(0.8, 0.8, 1);
 	-ms-transform: scale3d(0.8, 0.8, 1);
@@ -2006,7 +2012,7 @@ margin-top: 30%
 	position: absolute;
 	margin-top: 1%;
 	margin-left: 20%;
-	color: #c81315;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2019,7 +2025,8 @@ margin-top: 30%
 	
 	margin-top: -15%;
 	margin-left: -35%;
-	color: #FFFFFF;
+	
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2031,7 +2038,7 @@ margin-top: 30%
 /*	background-color: #C0C0C0;*/
 	margin-top: -15%;
 	margin-left:-30%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2043,7 +2050,7 @@ margin-top: 30%
 /*	background-color: #C0C0C0;*/
 	margin-top: -15%;
 	margin-left: -35%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2056,7 +2063,7 @@ margin-top: 30%
 	
 	margin-top: -10%;
 	margin-left: -35%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2068,7 +2075,7 @@ margin-top: 30%
 /*	background-color: #C0C0C0;*/
 	margin-top: -10%;
 	margin-left: -30%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 #poster4 .fp-tableCell .assay11 {
@@ -2080,7 +2087,7 @@ margin-top: 30%
 /*	background-color: #C0C0C0;*/
 	margin-top: -10%;
 	margin-left: -38%;
-	color: #FFFFFF;
+	color: #3e3e3e;
 	transform: scale3d(0.8, 0.8, 1)
 }
 
@@ -2092,28 +2099,28 @@ margin-top: 30%
 
 #poster4 .fp-tableCell .t2 {
 	position: absolute;
-	width: 23%;
+	width: 25%;
 	text-align: center;
 	height: 8%;
 
 	font-size: 30px;
-	color:#FFF;
+	color:#c81315;
 	top: 32%;
 	left: 20%;
-	background: #C0C0C0;
+	background: #adadad;
 
 }
 
 #poster4 .fp-tableCell .t3 {
 	position: absolute;
 	text-align: center;
-	width: 23%;
+	width: 25%;
 	height: 8%;
 	top: 32%;
 	font-size: 30px;
-	color:#FFF;
-	left: 40%;
-	background: #C0C0C0;
+	color:#c81315;
+	left: 45%;
+	background: #adadad;
 
 }
 
@@ -2123,15 +2130,15 @@ margin-top: 30%
 #poster4 .fp-tableCell .t4 {
 	position: absolute;
 	text-align: center;
-	width: 23%;
+	width: 25%;
 	height: 8%;
 	top: 32%;
-	left: 60%;
+	left: 70%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF;
+	color:#c81315;
 	
-	background: #C0C0C0;
+	background: #adadad;
 
 }
 
@@ -2140,43 +2147,43 @@ margin-top: 30%
 #poster4 .fp-tableCell .t5 {
 	position: absolute;
 	text-align: center;
-	width: 23%;
+	width: 25%;
 	height: 12%;
 	top: 40%;
 	left: 20%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF;
+	color:#c81315;
 	
-	background: #C0C0C0;
+	background: #adadad;
 
 }
 
 #poster4 .fp-tableCell .t6 {
 	position: absolute;
 	text-align: center;
-	width: 23%;
+	width: 25%;
 	height: 12%;
 	top: 40%;
 	font-size: 30px;
-	color:#FFF;
-	left: 40%;
-	background: #C0C0C0;
+	color:#c81315;
+	left: 45%;
+	background: #adadad;
 
 }
 
 #poster4 .fp-tableCell .t7 {
 	position: absolute;
 	text-align: center;
-	width: 23%;
+	width: 25%;
 	height: 12%;
 	top: 40%;
-	left: 60%;
+	left: 70%;
 	position: absolute;
 	font-size: 30px;
-	color:#FFF;
+	color:#c81315;
 	
-	background: #C0C0C0;
+	background: #adadad;
 
 }
 
