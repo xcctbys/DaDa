@@ -271,7 +271,7 @@ a:-ms-any-link {
 	display: inline-block;
 	width: 80px;
 	left: 25px;
-	top: 20px;
+	top: 0px;
 	font-weight: bold
 }
 
