@@ -35,8 +35,37 @@ function show_schedule(x="schedule1")
 }//显示图片函数，鼠标移到链接触发	
 
 
+//
+//jQuery(document).ready(function($)
+//{
+//	
+//	$('navigation').click(function(){
+//    $('navigation.visited').removeClass('visited');
+//
+//    $(this).addClass('visited');
+//
+//});
+//
+//
+// navigation.visited {background:#d4504f 
+//		  }
+//		
+//});
 
 
+function changecolor(x="main_")
+{
+  document.getElementById("main_").style.background=""; //原色adadad，3c373d
+  document.getElementById("caadria8_").style.background=""; 
+  document.getElementById("callp_").style.background=""; 
+  document.getElementById("callp2_").style.background=""; 
+  document.getElementById("regist_").style.background=""; 
+  document.getElementById("schedu_").style.background=""; 
+  document.getElementById("other_").style.background=""; 
+  document.getElementById("contact_").style.background=""; 
+  document.getElementById(x).style.background="#d4504f"; //更改为红色
+		
+}
 
 
 
