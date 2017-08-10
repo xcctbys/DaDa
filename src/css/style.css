@@ -326,7 +326,9 @@ a:-ms-any-link {
 
 #poster .fp-next {
 	background-position: 41px 0;
-	right: 5%
+	right: 5%;
+
+	
 }
 
 #poster .fp-next:hover {
@@ -1096,7 +1098,13 @@ a:-ms-any-link {
 
 #poster0 .fp-next {
 	background-position: 41px 0;
-	right: 5%
+	right: 5%;
+	-moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
 }
 
 #poster0 .fp-next:hover {
