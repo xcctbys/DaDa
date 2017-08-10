@@ -127,10 +127,14 @@ a:-ms-any-link {
 	font-size: 12px
 }
 
-.nav a.navigation:hover {
+/*.nav a.navigation:hover {
+	background: #d4504f
+}*/
+
+
+.nav a.navigation:visited {
 	background: #d4504f
 }
-
 
 /*delete to avoid kepping yellow of banner #a*/
 /*.nav a.navigation.active {
