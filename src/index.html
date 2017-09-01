@@ -124,7 +124,7 @@
 
             <!-- WELCOME PAGE #a -->
 
-            <div class="section  fp-section fp-table" id="logo" data-anchor="a" style="height:atuo; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;text-align: center;">
+            <div class="section  fp-section fp-table" id="logo" data-anchor="a" style="height:atuo; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;text-align: center;" onMouseOver="changecolor('main_')">
             <div class="fp-tableCell" style="height:100%;">
              
               <a href="#b" class="layer caad18 " data-depth="0.20" style="text-align: left; position: absolute; display: block; transform: translate3d(18.0764px, 11.5393px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
@@ -208,9 +208,11 @@
             </div></div>
 		
             <!-- CAADRIA2018 theme paragraph #b-->            
-             <div class="section" id="poster0" data-anchor="b" style="height: auto; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">            
+             <div class="section" id="poster0"  data-anchor="b"  style="height: auto; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;" >            
               	
-               <div class="slide" id="poster" >
+<!--               <div class="slide" id="poster" onMouseMove="changecolor('caadria8_')">-->
+               <div class="slide" id="poster" myvalue="#caadria8_">
+
                         <div class="assay">
 	                        
 	                        CAADRIA2018
@@ -230,7 +232,7 @@
 
 
                 <!-- #b/1 -->
-                <div class="slide" id="poster1">
+                <div class="slide" id="poster1" onMouseOver="changecolor('callp_')">
                     
                     <div class="assay">
                         <img src="../img/cfp.png" style="width:80%;" >
@@ -261,7 +263,7 @@
                     </a>
                     </div>
 
-                    <div class="assay3">
+                    <div class="assay3" >
                         <p>
 
                         Abstract and Full Paper Submission: <br/>
@@ -287,7 +289,7 @@
 
                 <!-- #b/2 -->
 
-               <div class="slide" id="poster4">
+               <div class="slide" id="poster4" onMouseOver="changecolor('callp2_')" >
                     <div style="width:18%; margin-top: -10%; margin-left: 15%" >
                         <img src="../img/cfpot.png" style="width: 100%">
                     </div>
@@ -295,27 +297,27 @@
                   <div  class="tabs" >
 
                     <div>
-                        <div class="title3 t2">
-                          <p style = "cursor:pointer;" onClick="show_assay('assay6')" >SHORTPAPERS</p>
+                        <div class="title3 t2" onClick="show_assay('assay6')">
+                          <p style = "cursor:pointer;"  >SHORTPAPERS</p>
                        </div>
                        
-                       <div class="title3 t3">
-                          <p style = "cursor:pointer;" onClick="show_assay('assay7')" >POSTERS</p>
+                       <div class="title3 t3" onClick="show_assay('assay7')">
+                          <p style = "cursor:pointer;"  >POSTERS</p>
                        </div>
                        
-                       <div class="title3 t4" >
-                          <p style = "cursor:pointer;" onClick="show_assay('assay8')" >WORKSHOPS</p>
+                       <div class="title3 t4" onClick="show_assay('assay8')">
+                          <p style = "cursor:pointer;"  >WORKSHOPS</p>
                        </div>
 
-                       <div class="title3 t5">
-                          <p style = "cursor:pointer;" onClick="show_assay('assay9')" >YOUNG CAADRIA AWARD</p>
+                       <div class="title3 t5" onClick="show_assay('assay9')">
+                          <p style = "cursor:pointer;"  >YOUNG CAADRIA AWARD</p>
                        </div>
 
-                        <div class="title3 t6">
-                         <p style = "cursor:pointer;" onClick="show_assay('assay10')" >SASADA AWARD</p>
+                        <div class="title3 t6" onClick="show_assay('assay10')">
+                         <p style = "cursor:pointer;"  >SASADA AWARD</p>
                        </div>
-                       <div class="title3 t7">
-                          <p style = "cursor:pointer;" onClick="show_assay('assay11')" >POSTGRADUATE STUDENT CONSORTIUM</p>
+                       <div class="title3 t7" onClick="show_assay('assay11')">
+                          <p style = "cursor:pointer;"  >POSTGRADUATE STUDENT CONSORTIUM</p>
                        </div>
                     </div>
 
@@ -386,7 +388,7 @@
                 
               <!-- #b/3 -->
              
-                <div class="slide" id="poster2">               
+                <div class="slide" id="poster2"  onMouseOver="changecolor('regist_')">               
 <!--                    <div style="width:30%; margin-top: -10%; margin-left: 15%">-->
                         <img class="regis_img" src="../img/regi.png" >
 <!--                    </div>-->
@@ -426,7 +428,7 @@
 
                 
                 <!-- #b/4 -->
-                <div class="slide" id="poster3"> 
+                <div class="slide" id="poster3"  onMouseOver="changecolor('schedu_')"> 
                   <img id="schedule1" src="../img/schedule1.png" alt=""  height="80%" style=" position: absolute;right: 15%;top:10%;z-index: 100; display:none;" >
                   <img id="schedule2" src="../img/schedule2.png" alt=""  height="80%" style=" position: absolute;right: 15%;top:10%;z-index: 100; display:none;" >
                   <img id="schedule3" src="../img/schedule3.png" alt=""  height="80%" style=" position: absolute;right: 15%;top:10%;z-index: 100; display:none;" >
@@ -505,8 +507,8 @@
 
            
            <!-- CAADRIA2018 #c  -->
-            <div class="section fp-section fp-table" id="product" data-anchor="c" style="height: 1200px;">
-            <div class="fp-tableCell" style="height:1200px;">
+            <div class="section fp-section fp-table" id="product" data-anchor="c" style="height: 1200px;" >
+            <div class="fp-tableCell" style="height:1200px;"  >
 
                 <div style="margin-left:50%; width:100%;font-size: 30px;color:#c81315;">
                 <p>OPENING SOON</p>
@@ -525,7 +527,7 @@
 
             <!-- TSDA  #d -->
             <!-- //height=1200px is a trial number, how we can guarentee the page being fullpaged -->
-            <div class="section fp-section fp-table" id="case" data-anchor="d" style="height: 1200px;">
+            <div class="section fp-section fp-table" id="case" data-anchor="d" style="height: 1200px;" onMouseOver="changecolor('other_')">
             <div class="fp-tableCell" style="height:1200px;">
 
                 <div style="margin-left:50%; width:100%;font-size: 30px;color:#c81315;">
@@ -544,7 +546,8 @@
 
 
             <!-- PEOPLE  #f-->
-            <div class="section fp-section fp-table" id="aboutUs" data-anchor="f" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="fp-tableCell" style="height:611px;">
+            <div class="section fp-section fp-table" id="aboutUs" data-anchor="f" style="height: 611px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="fp-tableCell" style="height:611px;"
+            onMouseOver="changecolor('contact_')" onm>
            
             <div style="margin-left:50%; width:100%;font-size: 40px;color:#c81315;">
                 <p>OPENING SOON</p>               
